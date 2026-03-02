@@ -1,7 +1,8 @@
 Humanize Top: AI Detection & Humanization Suite 🤖➡️👤
 This repository contains the source code for Humanize Top, a high-end web application designed to identify AI patterns and transform them into 100% human-sounding text.
 
-Humanize Top Logo
+Humanize Top
+https://humanize-top.vercel.app/
 
 Core Features
 

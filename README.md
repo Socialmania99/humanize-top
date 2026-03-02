@@ -1,20 +1,30 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+Humanize Top: AI Detection & Humanization Suite 🤖➡️👤
+This repository contains the source code for Humanize Top, a high-end web application designed to identify AI patterns and transform them into 100% human-sounding text.
 
-# Run and deploy your AI Studio app
+Humanize Top Logo
 
-This contains everything you need to run your app locally.
+Core Features
 
-View your app in AI Studio: https://ai.studio/apps/7027866b-0f5d-4cdc-b0ef-158f300b0c33
+AI Detection: Deep scan for "AI Prints" with word and character counts.
+Triple Humanizer: Generates 3 unique human-written variations (99.99% compatibility).
+Toolbox: Includes Paraphraser, Grammar Checker, Plagiarism Scanner, and AI Chat.
+Multi-Language: Any-to-any translation and AI writing assistant.
+Quick Start
 
-## Run Locally
+Clone the repo:
+bash
 
-**Prerequisites:**  Node.js
+    git clone https://github.com/Socialmania99/humanize-top.git
+Install dependencies:
+bash
 
+    npm install
+Configure Environment: Create a .env file and add your GEMINI_API_KEY.
+Run locally:
+bash
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+    npm run dev
+Deployment This project is optimized for Vercel. Simply connect your GitHub repository to the Vercel dashboard and add your environment variables to go live.
+
+© 2026 Humanize Top | favicon
+humanize.top

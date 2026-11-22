@@ -1,0 +1,4868 @@
+[
+  {
+    "id": "T001",
+    "sourceIndex": 1,
+    "title": "AI Chat",
+    "originalTitle": "AI Chat",
+    "slug": "ai-chat",
+    "sourceUrl": "https://quillbot.com/ai-chat",
+    "source": "uploaded markdown",
+    "category": "AI assistants",
+    "audiences": [
+      "Creators",
+      "Professional",
+      "Academic",
+      "Personal"
+    ],
+    "engine": "chat",
+    "archetype": "chat",
+    "description": "Explore ideas and work through questions.",
+    "fields": [
+      "Your brief",
+      "Audience",
+      "Details and constraints"
+    ],
+    "example": "A clear, specific brief with all the facts you want to preserve.",
+    "phase": "P2",
+    "dependency": "Text model + conversation storage",
+    "features": [
+      "Conversation",
+      "Message composer",
+      "Stop generation",
+      "Copy answer"
+    ],
+    "screenshot": "screenshots/tools/ai-chat.jpg",
+    "status": "design-preview"
+  },
+  {
+    "id": "T002",
+    "sourceIndex": 2,
+    "title": "AI Text Generator",
+    "originalTitle": "AI Text Generator",
+    "slug": "ai-text-generator",
+    "sourceUrl": "https://quillbot.com/ai-writing-tools/ai-text-generator",
+    "source": "uploaded markdown",
+    "category": "Writing",
+    "audiences": [
+      "Creators",
+      "Professional",
+      "Academic",
+      "Personal"
+    ],
+    "engine": "generate",
+    "archetype": "generator",
+    "description": "Create a structured text from your brief.",
+    "fields": [
+      "Topic or brief",
+      "Audience",
+      "Key points to include"
+    ],
+    "example": "Explain how a four-day workweek can improve focus without increasing meeting time.",
+    "phase": "P1",
+    "dependency": "Text model + versioned prompt",
+    "features": [
+      "Task-specific brief",
+      "Audience and constraints",
+      "Tone and language",
+      "Editable result",
+      "Copy and TXT export"
+    ],
+    "screenshot": "screenshots/tools/ai-text-generator.jpg",
+    "status": "design-preview"
+  },
+  {
+    "id": "T003",
+    "sourceIndex": 3,
+    "title": "AI Prompt Generator",
+    "originalTitle": "AI Prompt Generator",
+    "slug": "ai-prompt-generator",
+    "sourceUrl": "https://quillbot.com/ai-writing-tools/ai-prompt-generator",
+    "source": "uploaded markdown",
+    "category": "Creative",
+    "audiences": [
+      "Creators",
+      "Personal"
+    ],
+    "engine": "generate",
+    "archetype": "generator",
+    "description": "Create a structured prompt from your brief.",
+    "fields": [
+      "Task to achieve",
+      "Target AI or model",
+      "Context and output format"
+    ],
+    "example": "A quiet bookshop where handwritten notes reveal a forgotten friendship.",
+    "phase": "P2",
+    "dependency": "Text model + versioned prompt",
+    "features": [
+      "Task-specific brief",
+      "Audience and constraints",
+      "Tone and language",
+      "Editable result",
+      "Copy and TXT export"
+    ],
+    "screenshot": "screenshots/tools/ai-prompt-generator.jpg",
+    "status": "design-preview"
+  },
+  {
+    "id": "T004",
+    "sourceIndex": 4,
+    "title": "Invisible Character",
+    "originalTitle": "Invisible character",
+    "slug": "invisible-character",
+    "sourceUrl": "https://quillbot.com/tools/invisible-character",
+    "source": "uploaded markdown",
+    "category": "Utilities",
+    "audiences": [
+      "Creators",
+      "Professional",
+      "Academic",
+      "Personal"
+    ],
+    "engine": "invisible",
+    "archetype": "utility",
+    "description": "Inspect and copy an invisible Unicode character.",
+    "fields": [
+      "Your brief",
+      "Audience",
+      "Details and constraints"
+    ],
+    "example": "A clear, specific brief with all the facts you want to preserve.",
+    "phase": "P2",
+    "dependency": "Unicode constants, local",
+    "features": [
+      "Local input",
+      "Preview",
+      "Copy or download",
+      "Validation"
+    ],
+    "screenshot": "screenshots/tools/invisible-character.jpg",
+    "status": "design-preview"
+  },
+  {
+    "id": "T005",
+    "sourceIndex": 5,
+    "title": "Speech to Text Converter",
+    "originalTitle": "Speech to Text Converter",
+    "slug": "speech-to-text",
+    "sourceUrl": "https://quillbot.com/tools/speech-to-text",
+    "source": "uploaded markdown",
+    "category": "Audio",
+    "audiences": [
+      "Creators",
+      "Professional",
+      "Academic",
+      "Personal"
+    ],
+    "engine": "speech-to-text",
+    "archetype": "transcription",
+    "description": "Transcribe a recording into editable text.",
+    "fields": [
+      "Your brief",
+      "Audience",
+      "Details and constraints"
+    ],
+    "example": "A clear, specific brief with all the facts you want to preserve.",
+    "phase": "P3",
+    "dependency": "Transcription provider + audio jobs",
+    "features": [
+      "Recording upload",
+      "Language",
+      "Timestamps",
+      "Transcript editor",
+      "TXT and SRT export"
+    ],
+    "screenshot": "screenshots/tools/speech-to-text.jpg",
+    "status": "design-preview"
+  },
+  {
+    "id": "T006",
+    "sourceIndex": 6,
+    "title": "Paraphraser",
+    "originalTitle": "Paraphrasing tool",
+    "slug": "paraphraser",
+    "sourceUrl": "https://quillbot.com/paraphrasing-tool",
+    "source": "uploaded markdown",
+    "category": "Writing",
+    "audiences": [
+      "Creators",
+      "Professional",
+      "Academic",
+      "Personal"
+    ],
+    "engine": "rewrite",
+    "archetype": "editor",
+    "description": "Refine your wording while preserving what you mean.",
+    "fields": [
+      "Topic or brief",
+      "Audience",
+      "Key points to include"
+    ],
+    "example": "Explain how a four-day workweek can improve focus without increasing meeting time.",
+    "phase": "P1",
+    "dependency": "Text model + preservation checks",
+    "features": [
+      "Input and output",
+      "Language",
+      "Mode",
+      "Protected terms",
+      "Copy and TXT export",
+      "Changed-text view"
+    ],
+    "screenshot": "screenshots/tools/paraphraser.jpg",
+    "status": "design-preview"
+  },
+  {
+    "id": "T007",
+    "sourceIndex": 7,
+    "title": "Grammar Checker",
+    "originalTitle": "Grammar Checker",
+    "slug": "grammar-checker",
+    "sourceUrl": "https://quillbot.com/grammar-check",
+    "source": "uploaded markdown",
+    "category": "Writing",
+    "audiences": [
+      "Creators",
+      "Professional",
+      "Academic",
+      "Personal"
+    ],
+    "engine": "grammar",
+    "archetype": "editor",
+    "description": "Review grammar, spelling and punctuation in context.",
+    "fields": [
+      "Topic or brief",
+      "Audience",
+      "Key points to include"
+    ],
+    "example": "Explain how a four-day workweek can improve focus without increasing meeting time.",
+    "phase": "P1",
+    "dependency": "Grammar engine or validated structured text model",
+    "features": [
+      "Input and output",
+      "Language",
+      "Mode",
+      "Protected terms",
+      "Copy and TXT export",
+      "Changed-text view"
+    ],
+    "screenshot": "screenshots/tools/grammar-checker.jpg",
+    "status": "design-preview"
+  },
+  {
+    "id": "T008",
+    "sourceIndex": 8,
+    "title": "AI Email Writer",
+    "originalTitle": "AI Email Writer",
+    "slug": "ai-email-writer",
+    "sourceUrl": "https://quillbot.com/ai-writing-tools/ai-email-writer",
+    "source": "uploaded markdown",
+    "category": "Email",
+    "audiences": [
+      "Professional",
+      "Creators",
+      "Personal"
+    ],
+    "engine": "generate",
+    "archetype": "generator",
+    "description": "Create a structured email from your brief.",
+    "fields": [
+      "Purpose and recipient context",
+      "Details to include",
+      "Desired response"
+    ],
+    "example": "Follow up on a product demo and propose a 20-minute call next Tuesday.",
+    "phase": "P1",
+    "dependency": "Text model + versioned prompt",
+    "features": [
+      "Task-specific brief",
+      "Audience and constraints",
+      "Tone and language",
+      "Editable result",
+      "Copy and TXT export"
+    ],
+    "screenshot": "screenshots/tools/ai-email-writer.jpg",
+    "status": "design-preview"
+  },
+  {
+    "id": "T009",
+    "sourceIndex": 9,
+    "title": "AI Image Generator",
+    "originalTitle": "AI Image Generator",
+    "slug": "ai-image-generator",
+    "sourceUrl": "https://quillbot.com/ai-image-generator",
+    "source": "uploaded markdown",
+    "category": "Images",
+    "audiences": [
+      "Creators",
+      "Professional",
+      "Academic",
+      "Personal"
+    ],
+    "engine": "image",
+    "archetype": "image",
+    "description": "Create an image from a detailed visual brief.",
+    "fields": [
+      "Your brief",
+      "Audience",
+      "Details and constraints"
+    ],
+    "example": "A clear, specific brief with all the facts you want to preserve.",
+    "phase": "P3",
+    "dependency": "Image provider + image jobs",
+    "features": [
+      "Prompt",
+      "Style and aspect ratio",
+      "Image grid",
+      "Download"
+    ],
+    "screenshot": "screenshots/tools/ai-image-generator.jpg",
+    "status": "design-preview"
+  },
+  {
+    "id": "T010",
+    "sourceIndex": 10,
+    "title": "Summarizer",
+    "originalTitle": "Summarizer",
+    "slug": "summarizer",
+    "sourceUrl": "https://quillbot.com/summarize",
+    "source": "uploaded markdown",
+    "category": "Writing",
+    "audiences": [
+      "Creators",
+      "Professional",
+      "Academic",
+      "Personal"
+    ],
+    "engine": "summarize",
+    "archetype": "editor",
+    "description": "Turn long passages into a focused summary.",
+    "fields": [
+      "Topic or brief",
+      "Audience",
+      "Key points to include"
+    ],
+    "example": "Explain how a four-day workweek can improve focus without increasing meeting time.",
+    "phase": "P1",
+    "dependency": "Text model + length control",
+    "features": [
+      "Input and output",
+      "Language",
+      "Mode",
+      "Protected terms",
+      "Copy and TXT export",
+      "Changed-text view"
+    ],
+    "screenshot": "screenshots/tools/summarizer.jpg",
+    "status": "design-preview"
+  },
+  {
+    "id": "T011",
+    "sourceIndex": 11,
+    "title": "AI Humanizer",
+    "originalTitle": "AI Humanizer",
+    "slug": "ai-humanizer",
+    "sourceUrl": "https://quillbot.com/ai-humanizer",
+    "source": "uploaded markdown",
+    "category": "Writing",
+    "audiences": [
+      "Creators",
+      "Professional",
+      "Academic",
+      "Personal"
+    ],
+    "engine": "rewrite",
+    "archetype": "editor",
+    "description": "Refine your wording while preserving what you mean.",
+    "fields": [
+      "Topic or brief",
+      "Audience",
+      "Key points to include"
+    ],
+    "example": "Explain how a four-day workweek can improve focus without increasing meeting time.",
+    "phase": "P1",
+    "dependency": "Text model + preservation checks",
+    "features": [
+      "Input and output",
+      "Language",
+      "Mode",
+      "Protected terms",
+      "Copy and TXT export",
+      "Changed-text view"
+    ],
+    "screenshot": "screenshots/tools/ai-humanizer.jpg",
+    "status": "design-preview"
+  },
+  {
+    "id": "T012",
+    "sourceIndex": 12,
+    "title": "Ask AI",
+    "originalTitle": "Ask AI",
+    "slug": "ask-ai",
+    "sourceUrl": "https://quillbot.com/ask-ai",
+    "source": "uploaded markdown",
+    "category": "AI assistants",
+    "audiences": [
+      "Creators",
+      "Professional",
+      "Academic",
+      "Personal"
+    ],
+    "engine": "chat",
+    "archetype": "chat",
+    "description": "Explore ideas and work through questions.",
+    "fields": [
+      "Your brief",
+      "Audience",
+      "Details and constraints"
+    ],
+    "example": "A clear, specific brief with all the facts you want to preserve.",
+    "phase": "P2",
+    "dependency": "Text model + conversation storage",
+    "features": [
+      "Conversation",
+      "Message composer",
+      "Stop generation",
+      "Copy answer"
+    ],
+    "screenshot": "screenshots/tools/ask-ai.jpg",
+    "status": "design-preview"
+  },
+  {
+    "id": "T013",
+    "sourceIndex": 13,
+    "title": "Translator",
+    "originalTitle": "Translator",
+    "slug": "translator",
+    "sourceUrl": "https://quillbot.com/translate",
+    "source": "uploaded markdown",
+    "category": "Writing",
+    "audiences": [
+      "Creators",
+      "Professional",
+      "Academic",
+      "Personal"
+    ],
+    "engine": "translate",
+    "archetype": "editor",
+    "description": "Translate your writing into another language.",
+    "fields": [
+      "Topic or brief",
+      "Audience",
+      "Key points to include"
+    ],
+    "example": "Explain how a four-day workweek can improve focus without increasing meeting time.",
+    "phase": "P1",
+    "dependency": "Translation provider + glossary",
+    "features": [
+      "Input and output",
+      "Language",
+      "Mode",
+      "Protected terms",
+      "Copy and TXT export",
+      "Changed-text view"
+    ],
+    "screenshot": "screenshots/tools/translator.jpg",
+    "status": "design-preview"
+  },
+  {
+    "id": "T014",
+    "sourceIndex": 14,
+    "title": "Plagiarism Checker",
+    "originalTitle": "Plagiarism Checker",
+    "slug": "plagiarism-checker",
+    "sourceUrl": "https://quillbot.com/plagiarism-checker",
+    "source": "uploaded markdown",
+    "category": "Originality",
+    "audiences": [
+      "Creators",
+      "Professional",
+      "Academic",
+      "Personal"
+    ],
+    "engine": "plagiarism",
+    "archetype": "plagiarism",
+    "description": "Review matching passages and their sources.",
+    "fields": [
+      "Your brief",
+      "Audience",
+      "Details and constraints"
+    ],
+    "example": "A clear, specific brief with all the facts you want to preserve.",
+    "phase": "P3",
+    "dependency": "Licensed matching corpus/provider",
+    "features": [
+      "Input text",
+      "Matching passages",
+      "Source URLs",
+      "Exclusions",
+      "Report export"
+    ],
+    "screenshot": "screenshots/tools/plagiarism-checker.jpg",
+    "status": "design-preview"
+  },
+  {
+    "id": "T015",
+    "sourceIndex": 15,
+    "title": "Citation Generator",
+    "originalTitle": "Citation Generator",
+    "slug": "citation-generator",
+    "sourceUrl": "https://quillbot.com/citation-generator",
+    "source": "uploaded markdown",
+    "category": "Originality",
+    "audiences": [
+      "Creators",
+      "Professional",
+      "Academic",
+      "Personal"
+    ],
+    "engine": "citation",
+    "archetype": "citation",
+    "description": "Format references from verified source details.",
+    "fields": [
+      "Your brief",
+      "Audience",
+      "Details and constraints"
+    ],
+    "example": "A clear, specific brief with all the facts you want to preserve.",
+    "phase": "P2",
+    "dependency": "CSL formatter + metadata lookup",
+    "features": [
+      "Source type",
+      "Source identifiers",
+      "Editable metadata",
+      "Citation style",
+      "Bibliography export"
+    ],
+    "screenshot": "screenshots/tools/citation-generator.jpg",
+    "status": "design-preview"
+  },
+  {
+    "id": "T016",
+    "sourceIndex": 16,
+    "title": "AI Story Generator",
+    "originalTitle": "AI Story Generator",
+    "slug": "ai-story-generator",
+    "sourceUrl": "https://quillbot.com/ai-writing-tools/ai-story-generator",
+    "source": "uploaded markdown",
+    "category": "Creative",
+    "audiences": [
+      "Creators",
+      "Personal"
+    ],
+    "engine": "generate",
+    "archetype": "generator",
+    "description": "Create a structured story from your brief.",
+    "fields": [
+      "Premise or creative brief",
+      "Genre and audience",
+      "Characters, mood or constraints"
+    ],
+    "example": "A quiet bookshop where handwritten notes reveal a forgotten friendship.",
+    "phase": "P2",
+    "dependency": "Text model + versioned prompt",
+    "features": [
+      "Task-specific brief",
+      "Audience and constraints",
+      "Tone and language",
+      "Editable result",
+      "Copy and TXT export"
+    ],
+    "screenshot": "screenshots/tools/ai-story-generator.jpg",
+    "status": "design-preview"
+  },
+  {
+    "id": "T017",
+    "sourceIndex": 17,
+    "title": "AI Paragraph Generator",
+    "originalTitle": "AI Paragraph Generator",
+    "slug": "ai-paragraph-generator",
+    "sourceUrl": "https://quillbot.com/ai-writing-tools/ai-paragraph-generator",
+    "source": "uploaded markdown",
+    "category": "Writing",
+    "audiences": [
+      "Creators",
+      "Professional",
+      "Academic",
+      "Personal"
+    ],
+    "engine": "generate",
+    "archetype": "generator",
+    "description": "Create a structured paragraph from your brief.",
+    "fields": [
+      "Topic or brief",
+      "Audience",
+      "Key points to include"
+    ],
+    "example": "Explain how a four-day workweek can improve focus without increasing meeting time.",
+    "phase": "P1",
+    "dependency": "Text model + versioned prompt",
+    "features": [
+      "Task-specific brief",
+      "Audience and constraints",
+      "Tone and language",
+      "Editable result",
+      "Copy and TXT export"
+    ],
+    "screenshot": "screenshots/tools/ai-paragraph-generator.jpg",
+    "status": "design-preview"
+  },
+  {
+    "id": "T018",
+    "sourceIndex": 18,
+    "title": "AI Detector",
+    "originalTitle": "AI Detector",
+    "slug": "ai-detector",
+    "sourceUrl": "https://quillbot.com/ai-content-detector",
+    "source": "uploaded markdown",
+    "category": "Originality",
+    "audiences": [
+      "Creators",
+      "Professional",
+      "Academic",
+      "Personal"
+    ],
+    "engine": "detector",
+    "archetype": "detector",
+    "description": "Review AI-writing signals with uncertainty explained.",
+    "fields": [
+      "Your brief",
+      "Audience",
+      "Details and constraints"
+    ],
+    "example": "A clear, specific brief with all the facts you want to preserve.",
+    "phase": "P3",
+    "dependency": "Evaluated classifier/provider",
+    "features": [
+      "Input text",
+      "Language coverage",
+      "Uncertain result state",
+      "Sentence evidence",
+      "Limitations"
+    ],
+    "screenshot": "screenshots/tools/ai-detector.jpg",
+    "status": "design-preview"
+  },
+  {
+    "id": "T019",
+    "sourceIndex": 19,
+    "title": "AI Writer",
+    "originalTitle": "AI Writer",
+    "slug": "ai-writer",
+    "sourceUrl": "https://quillbot.com/ai-writing-tools/ai-writer",
+    "source": "uploaded markdown",
+    "category": "Writing",
+    "audiences": [
+      "Creators",
+      "Professional",
+      "Academic",
+      "Personal"
+    ],
+    "engine": "generate",
+    "archetype": "generator",
+    "description": "Create a structured writer from your brief.",
+    "fields": [
+      "Topic or brief",
+      "Audience",
+      "Key points to include"
+    ],
+    "example": "Explain how a four-day workweek can improve focus without increasing meeting time.",
+    "phase": "P2",
+    "dependency": "Text model + versioned prompt",
+    "features": [
+      "Task-specific brief",
+      "Audience and constraints",
+      "Tone and language",
+      "Editable result",
+      "Copy and TXT export"
+    ],
+    "screenshot": "screenshots/tools/ai-writer.jpg",
+    "status": "design-preview"
+  },
+  {
+    "id": "T020",
+    "sourceIndex": 20,
+    "title": "AI Image Prompt Generator",
+    "originalTitle": "AI Image Prompt Generator",
+    "slug": "ai-image-prompt-generator",
+    "sourceUrl": "https://quillbot.com/ai-writing-tools/ai-image-prompt-generator",
+    "source": "uploaded markdown",
+    "category": "Creative",
+    "audiences": [
+      "Creators",
+      "Personal"
+    ],
+    "engine": "generate",
+    "archetype": "generator",
+    "description": "Create a structured image prompt from your brief.",
+    "fields": [
+      "Premise or creative brief",
+      "Genre and audience",
+      "Characters, mood or constraints"
+    ],
+    "example": "A quiet bookshop where handwritten notes reveal a forgotten friendship.",
+    "phase": "P2",
+    "dependency": "Text model + versioned prompt",
+    "features": [
+      "Task-specific brief",
+      "Audience and constraints",
+      "Tone and language",
+      "Editable result",
+      "Copy and TXT export"
+    ],
+    "screenshot": "screenshots/tools/ai-image-prompt-generator.jpg",
+    "status": "design-preview"
+  },
+  {
+    "id": "T021",
+    "sourceIndex": 21,
+    "title": "AI Poem Generator",
+    "originalTitle": "AI Poem Generator",
+    "slug": "ai-poem-generator",
+    "sourceUrl": "https://quillbot.com/ai-writing-tools/ai-poem-generator",
+    "source": "uploaded markdown",
+    "category": "Creative",
+    "audiences": [
+      "Creators",
+      "Personal"
+    ],
+    "engine": "generate",
+    "archetype": "generator",
+    "description": "Create a structured poem from your brief.",
+    "fields": [
+      "Premise or creative brief",
+      "Genre and audience",
+      "Characters, mood or constraints"
+    ],
+    "example": "A quiet bookshop where handwritten notes reveal a forgotten friendship.",
+    "phase": "P2",
+    "dependency": "Text model + versioned prompt",
+    "features": [
+      "Task-specific brief",
+      "Audience and constraints",
+      "Tone and language",
+      "Editable result",
+      "Copy and TXT export"
+    ],
+    "screenshot": "screenshots/tools/ai-poem-generator.jpg",
+    "status": "design-preview"
+  },
+  {
+    "id": "T022",
+    "sourceIndex": 22,
+    "title": "AI Script Generator",
+    "originalTitle": "AI Script Generator",
+    "slug": "ai-script-generator",
+    "sourceUrl": "https://quillbot.com/ai-writing-tools/ai-script-generator",
+    "source": "uploaded markdown",
+    "category": "Creative",
+    "audiences": [
+      "Creators",
+      "Personal"
+    ],
+    "engine": "generate",
+    "archetype": "generator",
+    "description": "Create a structured script from your brief.",
+    "fields": [
+      "Premise or creative brief",
+      "Genre and audience",
+      "Characters, mood or constraints"
+    ],
+    "example": "A quiet bookshop where handwritten notes reveal a forgotten friendship.",
+    "phase": "P2",
+    "dependency": "Text model + versioned prompt",
+    "features": [
+      "Task-specific brief",
+      "Audience and constraints",
+      "Tone and language",
+      "Editable result",
+      "Copy and TXT export"
+    ],
+    "screenshot": "screenshots/tools/ai-script-generator.jpg",
+    "status": "design-preview"
+  },
+  {
+    "id": "T023",
+    "sourceIndex": 23,
+    "title": "AI Letter Generator",
+    "originalTitle": "AI Letter Generator",
+    "slug": "ai-letter-generator",
+    "sourceUrl": "https://quillbot.com/ai-writing-tools/ai-letter-generator",
+    "source": "uploaded markdown",
+    "category": "People & careers",
+    "audiences": [
+      "Professional",
+      "Academic",
+      "Personal"
+    ],
+    "engine": "generate",
+    "archetype": "generator",
+    "description": "Create a structured letter from your brief.",
+    "fields": [
+      "Role and organization",
+      "Verified experience or requirements",
+      "Details and constraints"
+    ],
+    "example": "A content strategist role at a small remote software company.",
+    "phase": "P2",
+    "dependency": "Text model + versioned prompt",
+    "features": [
+      "Task-specific brief",
+      "Audience and constraints",
+      "Tone and language",
+      "Editable result",
+      "Copy and TXT export"
+    ],
+    "screenshot": "screenshots/tools/ai-letter-generator.jpg",
+    "status": "design-preview"
+  },
+  {
+    "id": "T024",
+    "sourceIndex": 24,
+    "title": "AI Caption Generator",
+    "originalTitle": "AI Caption Generator",
+    "slug": "ai-caption-generator",
+    "sourceUrl": "https://quillbot.com/ai-writing-tools/ai-caption-generator",
+    "source": "uploaded markdown",
+    "category": "Social media",
+    "audiences": [
+      "Creators",
+      "Professional",
+      "Personal"
+    ],
+    "engine": "generate",
+    "archetype": "generator",
+    "description": "Create a structured caption from your brief.",
+    "fields": [
+      "Topic or message",
+      "Platform and audience",
+      "Brand voice and call to action"
+    ],
+    "example": "Introduce our new shared editing workspace to independent creators.",
+    "phase": "P1",
+    "dependency": "Text model + versioned prompt",
+    "features": [
+      "Task-specific brief",
+      "Audience and constraints",
+      "Tone and language",
+      "Editable result",
+      "Copy and TXT export"
+    ],
+    "screenshot": "screenshots/tools/ai-caption-generator.jpg",
+    "status": "design-preview"
+  },
+  {
+    "id": "T025",
+    "sourceIndex": 25,
+    "title": "AI Search",
+    "originalTitle": "AI Search",
+    "slug": "ai-search",
+    "sourceUrl": "https://quillbot.com/ai-search",
+    "source": "uploaded markdown",
+    "category": "AI assistants",
+    "audiences": [
+      "Creators",
+      "Professional",
+      "Academic",
+      "Personal"
+    ],
+    "engine": "search",
+    "archetype": "research",
+    "description": "Research a question with traceable sources.",
+    "fields": [
+      "Your brief",
+      "Audience",
+      "Details and constraints"
+    ],
+    "example": "A clear, specific brief with all the facts you want to preserve.",
+    "phase": "P3",
+    "dependency": "Search API + safe fetch + source extraction",
+    "features": [
+      "Research question",
+      "Source cards",
+      "Citations",
+      "Insufficient evidence state"
+    ],
+    "screenshot": "screenshots/tools/ai-search.jpg",
+    "status": "design-preview"
+  },
+  {
+    "id": "T026",
+    "sourceIndex": 26,
+    "title": "Text to Speech Converter",
+    "originalTitle": "Text to Speech Converter",
+    "slug": "text-to-speech",
+    "sourceUrl": "https://quillbot.com/tools/text-to-speech",
+    "source": "uploaded markdown",
+    "category": "Audio",
+    "audiences": [
+      "Creators",
+      "Professional",
+      "Academic",
+      "Personal"
+    ],
+    "engine": "text-to-speech",
+    "archetype": "speech",
+    "description": "Turn a script into spoken audio.",
+    "fields": [
+      "Your brief",
+      "Audience",
+      "Details and constraints"
+    ],
+    "example": "A clear, specific brief with all the facts you want to preserve.",
+    "phase": "P3",
+    "dependency": "Speech synthesis provider + audio jobs",
+    "features": [
+      "Script editor",
+      "Voice and language",
+      "Playback",
+      "MP3 download"
+    ],
+    "screenshot": "screenshots/tools/text-to-speech.jpg",
+    "status": "design-preview"
+  },
+  {
+    "id": "T027",
+    "sourceIndex": 27,
+    "title": "AI Instagram Caption Generator",
+    "originalTitle": "AI Instagram Caption Generator",
+    "slug": "ai-instagram-caption-generator",
+    "sourceUrl": "https://quillbot.com/ai-writing-tools/ai-instagram-caption-generator",
+    "source": "uploaded markdown",
+    "category": "Social media",
+    "audiences": [
+      "Creators",
+      "Professional",
+      "Personal"
+    ],
+    "engine": "generate",
+    "archetype": "generator",
+    "description": "Create a structured instagram caption from your brief.",
+    "fields": [
+      "Topic or message",
+      "Platform and audience",
+      "Brand voice and call to action"
+    ],
+    "example": "Introduce our new shared editing workspace to independent creators.",
+    "phase": "P1",
+    "dependency": "Text model + versioned prompt",
+    "features": [
+      "Task-specific brief",
+      "Audience and constraints",
+      "Tone and language",
+      "Editable result",
+      "Copy and TXT export"
+    ],
+    "screenshot": "screenshots/tools/ai-instagram-caption-generator.jpg",
+    "status": "design-preview"
+  },
+  {
+    "id": "T028",
+    "sourceIndex": 28,
+    "title": "PDF Editor",
+    "originalTitle": "PDF Editor",
+    "slug": "pdf-editor",
+    "sourceUrl": "https://quillbot.com/pdf-tools/pdf-editor",
+    "source": "uploaded markdown",
+    "category": "PDFs",
+    "audiences": [
+      "Creators",
+      "Professional",
+      "Academic",
+      "Personal"
+    ],
+    "engine": "pdf-editor",
+    "archetype": "pdf",
+    "description": "Arrange pages and add annotations to a PDF.",
+    "fields": [
+      "Your brief",
+      "Audience",
+      "Details and constraints"
+    ],
+    "example": "A clear, specific brief with all the facts you want to preserve.",
+    "phase": "P3",
+    "dependency": "PDF parser + viewer + page operations",
+    "features": [
+      "File input",
+      "Page count",
+      "Page preview",
+      "Job status",
+      "Output or cited answer"
+    ],
+    "screenshot": "screenshots/tools/pdf-editor.jpg",
+    "status": "design-preview"
+  },
+  {
+    "id": "T029",
+    "sourceIndex": 29,
+    "title": "AI Acronym Generator",
+    "originalTitle": "AI Acronym Generator",
+    "slug": "ai-acronym-generator",
+    "sourceUrl": "https://quillbot.com/ai-writing-tools/ai-acronym-generator",
+    "source": "uploaded markdown",
+    "category": "Marketing",
+    "audiences": [
+      "Professional",
+      "Creators"
+    ],
+    "engine": "generate",
+    "archetype": "generator",
+    "description": "Create a structured acronym from your brief.",
+    "fields": [
+      "Product or business",
+      "Target audience",
+      "Benefits and proof points"
+    ],
+    "example": "A writing workspace that helps small teams review drafts together.",
+    "phase": "P2",
+    "dependency": "Text model + versioned prompt",
+    "features": [
+      "Task-specific brief",
+      "Audience and constraints",
+      "Tone and language",
+      "Editable result",
+      "Copy and TXT export"
+    ],
+    "screenshot": "screenshots/tools/ai-acronym-generator.jpg",
+    "status": "design-preview"
+  },
+  {
+    "id": "T030",
+    "sourceIndex": 30,
+    "title": "Online Quiz Generator",
+    "originalTitle": "Online Quiz Generator",
+    "slug": "ai-quiz-maker",
+    "sourceUrl": "https://quillbot.com/ai-writing-tools/ai-quiz-maker",
+    "source": "uploaded markdown",
+    "category": "Academic",
+    "audiences": [
+      "Academic"
+    ],
+    "engine": "generate",
+    "archetype": "generator",
+    "description": "Create a structured online quiz from your brief.",
+    "fields": [
+      "Subject and learning level",
+      "Instructions and source material",
+      "Required structure"
+    ],
+    "example": "Explain renewable energy sources to a year-nine science class.",
+    "phase": "P2",
+    "dependency": "Text model + versioned prompt",
+    "features": [
+      "Task-specific brief",
+      "Audience and constraints",
+      "Tone and language",
+      "Editable result",
+      "Copy and TXT export"
+    ],
+    "screenshot": "screenshots/tools/ai-quiz-maker.jpg",
+    "status": "design-preview"
+  },
+  {
+    "id": "T031",
+    "sourceIndex": 31,
+    "title": "AI Tagline Generator",
+    "originalTitle": "AI Tagline Generator",
+    "slug": "ai-tagline-generator",
+    "sourceUrl": "https://quillbot.com/ai-writing-tools/ai-tagline-generator",
+    "source": "uploaded markdown",
+    "category": "Marketing",
+    "audiences": [
+      "Professional",
+      "Creators"
+    ],
+    "engine": "generate",
+    "archetype": "generator",
+    "description": "Create a structured tagline from your brief.",
+    "fields": [
+      "Product or business",
+      "Target audience",
+      "Benefits and proof points"
+    ],
+    "example": "A writing workspace that helps small teams review drafts together.",
+    "phase": "P2",
+    "dependency": "Text model + versioned prompt",
+    "features": [
+      "Task-specific brief",
+      "Audience and constraints",
+      "Tone and language",
+      "Editable result",
+      "Copy and TXT export"
+    ],
+    "screenshot": "screenshots/tools/ai-tagline-generator.jpg",
+    "status": "design-preview"
+  },
+  {
+    "id": "T032",
+    "sourceIndex": 32,
+    "title": "AI Title Generator",
+    "originalTitle": "AI Title Generator",
+    "slug": "ai-title-generator",
+    "sourceUrl": "https://quillbot.com/ai-writing-tools/ai-title-generator",
+    "source": "uploaded markdown",
+    "category": "SEO",
+    "audiences": [
+      "Creators",
+      "Professional"
+    ],
+    "engine": "generate",
+    "archetype": "generator",
+    "description": "Create a structured title from your brief.",
+    "fields": [
+      "Topic and primary keyword",
+      "Search intent and audience",
+      "Verified facts and internal links"
+    ],
+    "example": "A practical guide to building a consistent writing habit for busy founders.",
+    "phase": "P1",
+    "dependency": "Text model + versioned prompt",
+    "features": [
+      "Task-specific brief",
+      "Audience and constraints",
+      "Tone and language",
+      "Editable result",
+      "Copy and TXT export"
+    ],
+    "screenshot": "screenshots/tools/ai-title-generator.jpg",
+    "status": "design-preview"
+  },
+  {
+    "id": "T033",
+    "sourceIndex": 33,
+    "title": "Chat with PDF",
+    "originalTitle": "Chat with PDF",
+    "slug": "chat-pdf",
+    "sourceUrl": "https://quillbot.com/chat-pdf",
+    "source": "uploaded markdown",
+    "category": "PDFs",
+    "audiences": [
+      "Creators",
+      "Professional",
+      "Academic",
+      "Personal"
+    ],
+    "engine": "pdf-chat",
+    "archetype": "pdf",
+    "description": "Ask questions grounded in your document.",
+    "fields": [
+      "Your brief",
+      "Audience",
+      "Details and constraints"
+    ],
+    "example": "A clear, specific brief with all the facts you want to preserve.",
+    "phase": "P3",
+    "dependency": "PDF extraction + retrieval + citations",
+    "features": [
+      "File input",
+      "Page count",
+      "Page preview",
+      "Job status",
+      "Output or cited answer"
+    ],
+    "screenshot": "screenshots/tools/chat-pdf.jpg",
+    "status": "design-preview"
+  },
+  {
+    "id": "T034",
+    "sourceIndex": 34,
+    "title": "PDF Converter",
+    "originalTitle": "PDF Converter",
+    "slug": "pdf-converter",
+    "sourceUrl": "https://quillbot.com/pdf-tools/pdf-converter",
+    "source": "uploaded markdown",
+    "category": "PDFs",
+    "audiences": [
+      "Creators",
+      "Professional",
+      "Academic",
+      "Personal"
+    ],
+    "engine": "pdf-convert",
+    "archetype": "pdf",
+    "description": "Convert a document and check its layout.",
+    "fields": [
+      "Your brief",
+      "Audience",
+      "Details and constraints"
+    ],
+    "example": "A clear, specific brief with all the facts you want to preserve.",
+    "phase": "P3",
+    "dependency": "Sandboxed conversion worker",
+    "features": [
+      "File input",
+      "Page count",
+      "Page preview",
+      "Job status",
+      "Output or cited answer"
+    ],
+    "screenshot": "screenshots/tools/pdf-converter.jpg",
+    "status": "design-preview"
+  },
+  {
+    "id": "T035",
+    "sourceIndex": 35,
+    "title": "AI Bio Generator",
+    "originalTitle": "AI Bio Generator",
+    "slug": "ai-bio-generator",
+    "sourceUrl": "https://quillbot.com/ai-writing-tools/ai-bio-generator",
+    "source": "uploaded markdown",
+    "category": "Social media",
+    "audiences": [
+      "Creators",
+      "Professional",
+      "Personal"
+    ],
+    "engine": "generate",
+    "archetype": "generator",
+    "description": "Create a structured bio from your brief.",
+    "fields": [
+      "Topic or message",
+      "Platform and audience",
+      "Brand voice and call to action"
+    ],
+    "example": "Introduce our new shared editing workspace to independent creators.",
+    "phase": "P2",
+    "dependency": "Text model + versioned prompt",
+    "features": [
+      "Task-specific brief",
+      "Audience and constraints",
+      "Tone and language",
+      "Editable result",
+      "Copy and TXT export"
+    ],
+    "screenshot": "screenshots/tools/ai-bio-generator.jpg",
+    "status": "design-preview"
+  },
+  {
+    "id": "T036",
+    "sourceIndex": 36,
+    "title": "AI YouTube Description Generator",
+    "originalTitle": "AI YouTube Description Generator",
+    "slug": "ai-youtube-description-generator",
+    "sourceUrl": "https://quillbot.com/ai-writing-tools/ai-youtube-description-generator",
+    "source": "uploaded markdown",
+    "category": "Social media",
+    "audiences": [
+      "Creators",
+      "Professional",
+      "Personal"
+    ],
+    "engine": "generate",
+    "archetype": "generator",
+    "description": "Create a structured youtube description from your brief.",
+    "fields": [
+      "Topic or message",
+      "Platform and audience",
+      "Brand voice and call to action"
+    ],
+    "example": "Introduce our new shared editing workspace to independent creators.",
+    "phase": "P2",
+    "dependency": "Text model + versioned prompt",
+    "features": [
+      "Task-specific brief",
+      "Audience and constraints",
+      "Tone and language",
+      "Editable result",
+      "Copy and TXT export"
+    ],
+    "screenshot": "screenshots/tools/ai-youtube-description-generator.jpg",
+    "status": "design-preview"
+  },
+  {
+    "id": "T037",
+    "sourceIndex": 37,
+    "title": "AI Instagram Bio Generator",
+    "originalTitle": "AI Instagram Bio Generator",
+    "slug": "ai-instagram-bio-generator",
+    "sourceUrl": "https://quillbot.com/ai-writing-tools/ai-instagram-bio-generator",
+    "source": "uploaded markdown",
+    "category": "Social media",
+    "audiences": [
+      "Creators",
+      "Professional",
+      "Personal"
+    ],
+    "engine": "generate",
+    "archetype": "generator",
+    "description": "Create a structured instagram bio from your brief.",
+    "fields": [
+      "Topic or message",
+      "Platform and audience",
+      "Brand voice and call to action"
+    ],
+    "example": "Introduce our new shared editing workspace to independent creators.",
+    "phase": "P2",
+    "dependency": "Text model + versioned prompt",
+    "features": [
+      "Task-specific brief",
+      "Audience and constraints",
+      "Tone and language",
+      "Editable result",
+      "Copy and TXT export"
+    ],
+    "screenshot": "screenshots/tools/ai-instagram-bio-generator.jpg",
+    "status": "design-preview"
+  },
+  {
+    "id": "T038",
+    "sourceIndex": 38,
+    "title": "AI Project Proposal",
+    "originalTitle": "AI Project Proposal",
+    "slug": "ai-project-proposal-generator",
+    "sourceUrl": "https://quillbot.com/ai-writing-tools/ai-project-proposal-generator",
+    "source": "uploaded markdown",
+    "category": "Product & operations",
+    "audiences": [
+      "Professional",
+      "Creators"
+    ],
+    "engine": "generate",
+    "archetype": "generator",
+    "description": "Create a structured project proposal from your brief.",
+    "fields": [
+      "Project objective",
+      "Scope and deliverables",
+      "Budget, timeline and stakeholders"
+    ],
+    "example": "Launch a collaborative writing workspace with comments and version history.",
+    "phase": "P2",
+    "dependency": "Text model + versioned prompt",
+    "features": [
+      "Task-specific brief",
+      "Audience and constraints",
+      "Tone and language",
+      "Editable result",
+      "Copy and TXT export"
+    ],
+    "screenshot": "screenshots/tools/ai-project-proposal-generator.jpg",
+    "status": "design-preview"
+  },
+  {
+    "id": "T039",
+    "sourceIndex": 39,
+    "title": "AI Random Quote Generator",
+    "originalTitle": "AI Random Quote Generator",
+    "slug": "ai-random-quote-generator",
+    "sourceUrl": "https://quillbot.com/ai-writing-tools/ai-random-quote-generator",
+    "source": "uploaded markdown",
+    "category": "Creative",
+    "audiences": [
+      "Creators",
+      "Personal"
+    ],
+    "engine": "generate",
+    "archetype": "generator",
+    "description": "Create a structured random quote from your brief.",
+    "fields": [
+      "Premise or creative brief",
+      "Genre and audience",
+      "Characters, mood or constraints"
+    ],
+    "example": "A quiet bookshop where handwritten notes reveal a forgotten friendship.",
+    "phase": "P2",
+    "dependency": "Text model + versioned prompt",
+    "features": [
+      "Task-specific brief",
+      "Audience and constraints",
+      "Tone and language",
+      "Editable result",
+      "Copy and TXT export"
+    ],
+    "screenshot": "screenshots/tools/ai-random-quote-generator.jpg",
+    "status": "design-preview"
+  },
+  {
+    "id": "T040",
+    "sourceIndex": 40,
+    "title": "AI Study Guide Maker",
+    "originalTitle": "AI Study Guide Maker",
+    "slug": "ai-study-guide-maker",
+    "sourceUrl": "https://quillbot.com/ai-writing-tools/ai-study-guide-maker",
+    "source": "uploaded markdown",
+    "category": "Academic",
+    "audiences": [
+      "Academic"
+    ],
+    "engine": "generate",
+    "archetype": "generator",
+    "description": "Create a structured study guide maker from your brief.",
+    "fields": [
+      "Subject and learning level",
+      "Instructions and source material",
+      "Required structure"
+    ],
+    "example": "Explain renewable energy sources to a year-nine science class.",
+    "phase": "P2",
+    "dependency": "Text model + versioned prompt",
+    "features": [
+      "Task-specific brief",
+      "Audience and constraints",
+      "Tone and language",
+      "Editable result",
+      "Copy and TXT export"
+    ],
+    "screenshot": "screenshots/tools/ai-study-guide-maker.jpg",
+    "status": "design-preview"
+  },
+  {
+    "id": "T041",
+    "sourceIndex": 41,
+    "title": "AI Hashtag Generator",
+    "originalTitle": "AI Hashtag Generator",
+    "slug": "ai-hashtag-generator",
+    "sourceUrl": "https://quillbot.com/ai-writing-tools/ai-hashtag-generator",
+    "source": "uploaded markdown",
+    "category": "Social media",
+    "audiences": [
+      "Creators",
+      "Professional",
+      "Personal"
+    ],
+    "engine": "generate",
+    "archetype": "generator",
+    "description": "Create a structured hashtag from your brief.",
+    "fields": [
+      "Topic or message",
+      "Platform and audience",
+      "Brand voice and call to action"
+    ],
+    "example": "Introduce our new shared editing workspace to independent creators.",
+    "phase": "P1",
+    "dependency": "Text model + versioned prompt",
+    "features": [
+      "Task-specific brief",
+      "Audience and constraints",
+      "Tone and language",
+      "Editable result",
+      "Copy and TXT export"
+    ],
+    "screenshot": "screenshots/tools/ai-hashtag-generator.jpg",
+    "status": "design-preview"
+  },
+  {
+    "id": "T042",
+    "sourceIndex": 42,
+    "title": "AI Inspirational Quote Generator",
+    "originalTitle": "AI Inspirational Quote Generator",
+    "slug": "ai-inspirational-quote-generator",
+    "sourceUrl": "https://quillbot.com/ai-writing-tools/ai-inspirational-quote-generator",
+    "source": "uploaded markdown",
+    "category": "Creative",
+    "audiences": [
+      "Creators",
+      "Personal"
+    ],
+    "engine": "generate",
+    "archetype": "generator",
+    "description": "Create a structured inspirational quote from your brief.",
+    "fields": [
+      "Premise or creative brief",
+      "Genre and audience",
+      "Characters, mood or constraints"
+    ],
+    "example": "A quiet bookshop where handwritten notes reveal a forgotten friendship.",
+    "phase": "P2",
+    "dependency": "Text model + versioned prompt",
+    "features": [
+      "Task-specific brief",
+      "Audience and constraints",
+      "Tone and language",
+      "Editable result",
+      "Copy and TXT export"
+    ],
+    "screenshot": "screenshots/tools/ai-inspirational-quote-generator.jpg",
+    "status": "design-preview"
+  },
+  {
+    "id": "T043",
+    "sourceIndex": 43,
+    "title": "AI Executive Summary Generator",
+    "originalTitle": "AI Executive Summary Generator",
+    "slug": "ai-executive-summary-generator",
+    "sourceUrl": "https://quillbot.com/ai-writing-tools/ai-executive-summary-generator",
+    "source": "uploaded markdown",
+    "category": "Product & operations",
+    "audiences": [
+      "Professional",
+      "Creators"
+    ],
+    "engine": "generate",
+    "archetype": "generator",
+    "description": "Create a structured executive summary from your brief.",
+    "fields": [
+      "Project or business context",
+      "Goals and requirements",
+      "Scope, owners and constraints"
+    ],
+    "example": "Launch a collaborative writing workspace with comments and version history.",
+    "phase": "P2",
+    "dependency": "Text model + versioned prompt",
+    "features": [
+      "Task-specific brief",
+      "Audience and constraints",
+      "Tone and language",
+      "Editable result",
+      "Copy and TXT export"
+    ],
+    "screenshot": "screenshots/tools/ai-executive-summary-generator.jpg",
+    "status": "design-preview"
+  },
+  {
+    "id": "T044",
+    "sourceIndex": 44,
+    "title": "AI Copywriter",
+    "originalTitle": "AI Copywriter",
+    "slug": "ai-copywriter",
+    "sourceUrl": "https://quillbot.com/ai-writing-tools/ai-copywriter",
+    "source": "uploaded markdown",
+    "category": "Marketing",
+    "audiences": [
+      "Professional",
+      "Creators"
+    ],
+    "engine": "generate",
+    "archetype": "generator",
+    "description": "Create a structured copywriter from your brief.",
+    "fields": [
+      "Product or business",
+      "Target audience",
+      "Benefits and proof points"
+    ],
+    "example": "A writing workspace that helps small teams review drafts together.",
+    "phase": "P2",
+    "dependency": "Text model + versioned prompt",
+    "features": [
+      "Task-specific brief",
+      "Audience and constraints",
+      "Tone and language",
+      "Editable result",
+      "Copy and TXT export"
+    ],
+    "screenshot": "screenshots/tools/ai-copywriter.jpg",
+    "status": "design-preview"
+  },
+  {
+    "id": "T045",
+    "sourceIndex": 45,
+    "title": "AI Lyric Generator",
+    "originalTitle": "AI Lyric Generator",
+    "slug": "ai-lyric-generator",
+    "sourceUrl": "https://quillbot.com/ai-writing-tools/ai-lyric-generator",
+    "source": "uploaded markdown",
+    "category": "Creative",
+    "audiences": [
+      "Creators",
+      "Personal"
+    ],
+    "engine": "generate",
+    "archetype": "generator",
+    "description": "Create a structured lyric from your brief.",
+    "fields": [
+      "Premise or creative brief",
+      "Genre and audience",
+      "Characters, mood or constraints"
+    ],
+    "example": "A quiet bookshop where handwritten notes reveal a forgotten friendship.",
+    "phase": "P2",
+    "dependency": "Text model + versioned prompt",
+    "features": [
+      "Task-specific brief",
+      "Audience and constraints",
+      "Tone and language",
+      "Editable result",
+      "Copy and TXT export"
+    ],
+    "screenshot": "screenshots/tools/ai-lyric-generator.jpg",
+    "status": "design-preview"
+  },
+  {
+    "id": "T046",
+    "sourceIndex": 46,
+    "title": "AI Article Rewriter",
+    "originalTitle": "AI Article Rewriter",
+    "slug": "ai-article-rewriter",
+    "sourceUrl": "https://quillbot.com/ai-writing-tools/ai-article-rewriter",
+    "source": "uploaded markdown",
+    "category": "Writing",
+    "audiences": [
+      "Creators",
+      "Professional",
+      "Academic",
+      "Personal"
+    ],
+    "engine": "rewrite",
+    "archetype": "editor",
+    "description": "Refine your wording while preserving what you mean.",
+    "fields": [
+      "Topic or brief",
+      "Audience",
+      "Key points to include"
+    ],
+    "example": "Explain how a four-day workweek can improve focus without increasing meeting time.",
+    "phase": "P1",
+    "dependency": "Text model + preservation checks",
+    "features": [
+      "Input and output",
+      "Language",
+      "Mode",
+      "Protected terms",
+      "Copy and TXT export",
+      "Changed-text view"
+    ],
+    "screenshot": "screenshots/tools/ai-article-rewriter.jpg",
+    "status": "design-preview"
+  },
+  {
+    "id": "T047",
+    "sourceIndex": 47,
+    "title": "AI Slogan Generator",
+    "originalTitle": "AI Slogan generator",
+    "slug": "ai-slogan-generator",
+    "sourceUrl": "https://quillbot.com/ai-writing-tools/ai-slogan-generator",
+    "source": "uploaded markdown",
+    "category": "Marketing",
+    "audiences": [
+      "Professional",
+      "Creators"
+    ],
+    "engine": "generate",
+    "archetype": "generator",
+    "description": "Create a structured slogan from your brief.",
+    "fields": [
+      "Product or business",
+      "Target audience",
+      "Benefits and proof points"
+    ],
+    "example": "A writing workspace that helps small teams review drafts together.",
+    "phase": "P2",
+    "dependency": "Text model + versioned prompt",
+    "features": [
+      "Task-specific brief",
+      "Audience and constraints",
+      "Tone and language",
+      "Editable result",
+      "Copy and TXT export"
+    ],
+    "screenshot": "screenshots/tools/ai-slogan-generator.jpg",
+    "status": "design-preview"
+  },
+  {
+    "id": "T048",
+    "sourceIndex": 48,
+    "title": "AI Checklist Generator",
+    "originalTitle": "AI Checklist Generator",
+    "slug": "ai-checklist-generator",
+    "sourceUrl": "https://quillbot.com/ai-writing-tools/ai-checklist-generator",
+    "source": "uploaded markdown",
+    "category": "Product & operations",
+    "audiences": [
+      "Professional",
+      "Creators"
+    ],
+    "engine": "generate",
+    "archetype": "generator",
+    "description": "Create a structured checklist from your brief.",
+    "fields": [
+      "Project or business context",
+      "Goals and requirements",
+      "Scope, owners and constraints"
+    ],
+    "example": "Launch a collaborative writing workspace with comments and version history.",
+    "phase": "P2",
+    "dependency": "Text model + versioned prompt",
+    "features": [
+      "Task-specific brief",
+      "Audience and constraints",
+      "Tone and language",
+      "Editable result",
+      "Copy and TXT export"
+    ],
+    "screenshot": "screenshots/tools/ai-checklist-generator.jpg",
+    "status": "design-preview"
+  },
+  {
+    "id": "T049",
+    "sourceIndex": 49,
+    "title": "AI Social Media Post Generator",
+    "originalTitle": "AI Social Media Post Generator",
+    "slug": "ai-social-media-post-generator",
+    "sourceUrl": "https://quillbot.com/ai-writing-tools/ai-social-media-post-generator",
+    "source": "uploaded markdown",
+    "category": "Social media",
+    "audiences": [
+      "Creators",
+      "Professional",
+      "Personal"
+    ],
+    "engine": "generate",
+    "archetype": "generator",
+    "description": "Create a structured social media post from your brief.",
+    "fields": [
+      "Topic or message",
+      "Platform and audience",
+      "Brand voice and call to action"
+    ],
+    "example": "Introduce our new shared editing workspace to independent creators.",
+    "phase": "P1",
+    "dependency": "Text model + versioned prompt",
+    "features": [
+      "Task-specific brief",
+      "Audience and constraints",
+      "Tone and language",
+      "Editable result",
+      "Copy and TXT export"
+    ],
+    "screenshot": "screenshots/tools/ai-social-media-post-generator.jpg",
+    "status": "design-preview"
+  },
+  {
+    "id": "T050",
+    "sourceIndex": 50,
+    "title": "AI Push Notification Generator",
+    "originalTitle": "AI Push Notification Generator",
+    "slug": "ai-push-notification-generator",
+    "sourceUrl": "https://quillbot.com/ai-writing-tools/ai-push-notification-generator",
+    "source": "uploaded markdown",
+    "category": "Marketing",
+    "audiences": [
+      "Professional",
+      "Creators"
+    ],
+    "engine": "generate",
+    "archetype": "generator",
+    "description": "Create a structured push notification from your brief.",
+    "fields": [
+      "Product or business",
+      "Target audience",
+      "Benefits and proof points"
+    ],
+    "example": "A writing workspace that helps small teams review drafts together.",
+    "phase": "P2",
+    "dependency": "Text model + versioned prompt",
+    "features": [
+      "Task-specific brief",
+      "Audience and constraints",
+      "Tone and language",
+      "Editable result",
+      "Copy and TXT export"
+    ],
+    "screenshot": "screenshots/tools/ai-push-notification-generator.jpg",
+    "status": "design-preview"
+  },
+  {
+    "id": "T051",
+    "sourceIndex": 51,
+    "title": "AI Product Review Generator",
+    "originalTitle": "AI Product Review Generator",
+    "slug": "ai-product-review-generator",
+    "sourceUrl": "https://quillbot.com/ai-writing-tools/ai-product-review-generator",
+    "source": "uploaded markdown",
+    "category": "Ecommerce",
+    "audiences": [
+      "Creators",
+      "Professional"
+    ],
+    "engine": "generate",
+    "archetype": "generator",
+    "description": "Create a structured product review from your brief.",
+    "fields": [
+      "Your actual product experience",
+      "Pros and cons you observed",
+      "Product name and context"
+    ],
+    "example": "A lightweight, refillable notebook with recycled paper.",
+    "phase": "P2",
+    "dependency": "Text model + versioned prompt",
+    "features": [
+      "Task-specific brief",
+      "Audience and constraints",
+      "Tone and language",
+      "Editable result",
+      "Copy and TXT export"
+    ],
+    "screenshot": "screenshots/tools/ai-product-review-generator.jpg",
+    "status": "design-preview"
+  },
+  {
+    "id": "T052",
+    "sourceIndex": 52,
+    "title": "AI PRD Generator",
+    "originalTitle": "AI PRD Generator",
+    "slug": "ai-prd-generator",
+    "sourceUrl": "https://quillbot.com/ai-writing-tools/ai-prd-generator",
+    "source": "uploaded markdown",
+    "category": "Product & operations",
+    "audiences": [
+      "Professional",
+      "Creators"
+    ],
+    "engine": "generate",
+    "archetype": "generator",
+    "description": "Create a structured prd from your brief.",
+    "fields": [
+      "Problem and target users",
+      "Requirements and success measures",
+      "Out of scope and dependencies"
+    ],
+    "example": "Launch a collaborative writing workspace with comments and version history.",
+    "phase": "P2",
+    "dependency": "Text model + versioned prompt",
+    "features": [
+      "Task-specific brief",
+      "Audience and constraints",
+      "Tone and language",
+      "Editable result",
+      "Copy and TXT export"
+    ],
+    "screenshot": "screenshots/tools/ai-prd-generator.jpg",
+    "status": "design-preview"
+  },
+  {
+    "id": "T053",
+    "sourceIndex": 53,
+    "title": "AI User Manual Generator",
+    "originalTitle": "AI User Manual Generator",
+    "slug": "ai-user-manual-generator",
+    "sourceUrl": "https://quillbot.com/ai-writing-tools/ai-user-manual-generator",
+    "source": "uploaded markdown",
+    "category": "Product & operations",
+    "audiences": [
+      "Professional",
+      "Creators"
+    ],
+    "engine": "generate",
+    "archetype": "generator",
+    "description": "Create a structured user manual from your brief.",
+    "fields": [
+      "Project or business context",
+      "Goals and requirements",
+      "Scope, owners and constraints"
+    ],
+    "example": "Launch a collaborative writing workspace with comments and version history.",
+    "phase": "P2",
+    "dependency": "Text model + versioned prompt",
+    "features": [
+      "Task-specific brief",
+      "Audience and constraints",
+      "Tone and language",
+      "Editable result",
+      "Copy and TXT export"
+    ],
+    "screenshot": "screenshots/tools/ai-user-manual-generator.jpg",
+    "status": "design-preview"
+  },
+  {
+    "id": "T054",
+    "sourceIndex": 54,
+    "title": "AI Youtube Video Script Generator",
+    "originalTitle": "AI Youtube video script generator",
+    "slug": "ai-youtube-video-script-generator",
+    "sourceUrl": "https://quillbot.com/ai-writing-tools/ai-youtube-video-script-generator",
+    "source": "uploaded markdown",
+    "category": "Social media",
+    "audiences": [
+      "Creators",
+      "Professional",
+      "Personal"
+    ],
+    "engine": "generate",
+    "archetype": "generator",
+    "description": "Create a structured youtube video script from your brief.",
+    "fields": [
+      "Topic or message",
+      "Platform and audience",
+      "Brand voice and call to action"
+    ],
+    "example": "Introduce our new shared editing workspace to independent creators.",
+    "phase": "P2",
+    "dependency": "Text model + versioned prompt",
+    "features": [
+      "Task-specific brief",
+      "Audience and constraints",
+      "Tone and language",
+      "Editable result",
+      "Copy and TXT export"
+    ],
+    "screenshot": "screenshots/tools/ai-youtube-video-script-generator.jpg",
+    "status": "design-preview"
+  },
+  {
+    "id": "T055",
+    "sourceIndex": 55,
+    "title": "AI Rap Generator",
+    "originalTitle": "AI Rap Generator",
+    "slug": "ai-rap-generator",
+    "sourceUrl": "https://quillbot.com/ai-writing-tools/ai-rap-generator",
+    "source": "uploaded markdown",
+    "category": "Creative",
+    "audiences": [
+      "Creators",
+      "Personal"
+    ],
+    "engine": "generate",
+    "archetype": "generator",
+    "description": "Create a structured rap from your brief.",
+    "fields": [
+      "Premise or creative brief",
+      "Genre and audience",
+      "Characters, mood or constraints"
+    ],
+    "example": "A quiet bookshop where handwritten notes reveal a forgotten friendship.",
+    "phase": "P2",
+    "dependency": "Text model + versioned prompt",
+    "features": [
+      "Task-specific brief",
+      "Audience and constraints",
+      "Tone and language",
+      "Editable result",
+      "Copy and TXT export"
+    ],
+    "screenshot": "screenshots/tools/ai-rap-generator.jpg",
+    "status": "design-preview"
+  },
+  {
+    "id": "T056",
+    "sourceIndex": 56,
+    "title": "AI Letter of Recommendation Generator",
+    "originalTitle": "AI Letter of recommendation Generator",
+    "slug": "ai-letter-of-recommendation-generator",
+    "sourceUrl": "https://quillbot.com/ai-writing-tools/ai-letter-of-recommendation-generator",
+    "source": "uploaded markdown",
+    "category": "People & careers",
+    "audiences": [
+      "Professional",
+      "Academic",
+      "Personal"
+    ],
+    "engine": "generate",
+    "archetype": "generator",
+    "description": "Create a structured letter of recommendation from your brief.",
+    "fields": [
+      "Role and organization",
+      "Verified experience or requirements",
+      "Details and constraints"
+    ],
+    "example": "A content strategist role at a small remote software company.",
+    "phase": "P2",
+    "dependency": "Text model + versioned prompt",
+    "features": [
+      "Task-specific brief",
+      "Audience and constraints",
+      "Tone and language",
+      "Editable result",
+      "Copy and TXT export"
+    ],
+    "screenshot": "screenshots/tools/ai-letter-of-recommendation-generator.jpg",
+    "status": "design-preview"
+  },
+  {
+    "id": "T057",
+    "sourceIndex": 57,
+    "title": "Image to Text",
+    "originalTitle": "Image to Text",
+    "slug": "image-to-text",
+    "sourceUrl": "https://quillbot.com/image-tools/image-to-text",
+    "source": "uploaded markdown",
+    "category": "Images",
+    "audiences": [
+      "Creators",
+      "Professional",
+      "Academic",
+      "Personal"
+    ],
+    "engine": "ocr",
+    "archetype": "upload",
+    "description": "Extract editable text from an image.",
+    "fields": [
+      "Your brief",
+      "Audience",
+      "Details and constraints"
+    ],
+    "example": "A clear, specific brief with all the facts you want to preserve.",
+    "phase": "P3",
+    "dependency": "OCR engine + image validation",
+    "features": [
+      "File input",
+      "Validation",
+      "Before and after",
+      "Job status",
+      "Download"
+    ],
+    "screenshot": "screenshots/tools/image-to-text.jpg",
+    "status": "design-preview"
+  },
+  {
+    "id": "T058",
+    "sourceIndex": 58,
+    "title": "AI Cover Letter Generator",
+    "originalTitle": "AI Cover Letter Generator",
+    "slug": "cover-letter-generator",
+    "sourceUrl": "https://quillbot.com/ai-writing-tools/cover-letter-generator",
+    "source": "uploaded markdown",
+    "category": "People & careers",
+    "audiences": [
+      "Professional",
+      "Academic",
+      "Personal"
+    ],
+    "engine": "generate",
+    "archetype": "generator",
+    "description": "Create a structured cover letter from your brief.",
+    "fields": [
+      "Role and organization",
+      "Verified experience or requirements",
+      "Details and constraints"
+    ],
+    "example": "A content strategist role at a small remote software company.",
+    "phase": "P2",
+    "dependency": "Text model + versioned prompt",
+    "features": [
+      "Task-specific brief",
+      "Audience and constraints",
+      "Tone and language",
+      "Editable result",
+      "Copy and TXT export"
+    ],
+    "screenshot": "screenshots/tools/cover-letter-generator.jpg",
+    "status": "design-preview"
+  },
+  {
+    "id": "T059",
+    "sourceIndex": 59,
+    "title": "AI Logo Generator",
+    "originalTitle": "AI logo Generator",
+    "slug": "ai-logo-generator",
+    "sourceUrl": "https://quillbot.com/image-tools/ai-logo-generator",
+    "source": "uploaded markdown",
+    "category": "Images",
+    "audiences": [
+      "Creators",
+      "Professional",
+      "Academic",
+      "Personal"
+    ],
+    "engine": "image",
+    "archetype": "image",
+    "description": "Create an image from a detailed visual brief.",
+    "fields": [
+      "Your brief",
+      "Audience",
+      "Details and constraints"
+    ],
+    "example": "A clear, specific brief with all the facts you want to preserve.",
+    "phase": "P3",
+    "dependency": "Image provider + image jobs",
+    "features": [
+      "Prompt",
+      "Style and aspect ratio",
+      "Image grid",
+      "Download"
+    ],
+    "screenshot": "screenshots/tools/ai-logo-generator.jpg",
+    "status": "design-preview"
+  },
+  {
+    "id": "T060",
+    "sourceIndex": 60,
+    "title": "AI Random Prompt Generator",
+    "originalTitle": "AI Random Prompt Generator",
+    "slug": "ai-random-prompt-generator",
+    "sourceUrl": "https://quillbot.com/ai-writing-tools/ai-random-prompt-generator",
+    "source": "uploaded markdown",
+    "category": "Creative",
+    "audiences": [
+      "Creators",
+      "Personal"
+    ],
+    "engine": "generate",
+    "archetype": "generator",
+    "description": "Create a structured random prompt from your brief.",
+    "fields": [
+      "Premise or creative brief",
+      "Genre and audience",
+      "Characters, mood or constraints"
+    ],
+    "example": "A quiet bookshop where handwritten notes reveal a forgotten friendship.",
+    "phase": "P2",
+    "dependency": "Text model + versioned prompt",
+    "features": [
+      "Task-specific brief",
+      "Audience and constraints",
+      "Tone and language",
+      "Editable result",
+      "Copy and TXT export"
+    ],
+    "screenshot": "screenshots/tools/ai-random-prompt-generator.jpg",
+    "status": "design-preview"
+  },
+  {
+    "id": "T061",
+    "sourceIndex": 61,
+    "title": "AI TikTok Script Generator",
+    "originalTitle": "AI TikTok Script Generator",
+    "slug": "ai-tiktok-script-generator",
+    "sourceUrl": "https://quillbot.com/ai-writing-tools/ai-tiktok-script-generator",
+    "source": "uploaded markdown",
+    "category": "Social media",
+    "audiences": [
+      "Creators",
+      "Professional",
+      "Personal"
+    ],
+    "engine": "generate",
+    "archetype": "generator",
+    "description": "Create a structured tiktok script from your brief.",
+    "fields": [
+      "Topic or message",
+      "Platform and audience",
+      "Brand voice and call to action"
+    ],
+    "example": "Introduce our new shared editing workspace to independent creators.",
+    "phase": "P2",
+    "dependency": "Text model + versioned prompt",
+    "features": [
+      "Task-specific brief",
+      "Audience and constraints",
+      "Tone and language",
+      "Editable result",
+      "Copy and TXT export"
+    ],
+    "screenshot": "screenshots/tools/ai-tiktok-script-generator.jpg",
+    "status": "design-preview"
+  },
+  {
+    "id": "T062",
+    "sourceIndex": 62,
+    "title": "AI Writing Prompt Generator",
+    "originalTitle": "AI Writing Prompt Generator",
+    "slug": "ai-writing-prompt-generator",
+    "sourceUrl": "https://quillbot.com/ai-writing-tools/ai-writing-prompt-generator",
+    "source": "uploaded markdown",
+    "category": "Creative",
+    "audiences": [
+      "Creators",
+      "Personal"
+    ],
+    "engine": "generate",
+    "archetype": "generator",
+    "description": "Create a structured writing prompt from your brief.",
+    "fields": [
+      "Premise or creative brief",
+      "Genre and audience",
+      "Characters, mood or constraints"
+    ],
+    "example": "A quiet bookshop where handwritten notes reveal a forgotten friendship.",
+    "phase": "P2",
+    "dependency": "Text model + versioned prompt",
+    "features": [
+      "Task-specific brief",
+      "Audience and constraints",
+      "Tone and language",
+      "Editable result",
+      "Copy and TXT export"
+    ],
+    "screenshot": "screenshots/tools/ai-writing-prompt-generator.jpg",
+    "status": "design-preview"
+  },
+  {
+    "id": "T063",
+    "sourceIndex": 63,
+    "title": "AI Case Study Generator",
+    "originalTitle": "AI Case Study Generator",
+    "slug": "ai-case-study-generator",
+    "sourceUrl": "https://quillbot.com/ai-writing-tools/ai-case-study-generator",
+    "source": "uploaded markdown",
+    "category": "Marketing",
+    "audiences": [
+      "Professional",
+      "Creators"
+    ],
+    "engine": "generate",
+    "archetype": "generator",
+    "description": "Create a structured case study from your brief.",
+    "fields": [
+      "Product or business",
+      "Target audience",
+      "Benefits and proof points"
+    ],
+    "example": "A writing workspace that helps small teams review drafts together.",
+    "phase": "P2",
+    "dependency": "Text model + versioned prompt",
+    "features": [
+      "Task-specific brief",
+      "Audience and constraints",
+      "Tone and language",
+      "Editable result",
+      "Copy and TXT export"
+    ],
+    "screenshot": "screenshots/tools/ai-case-study-generator.jpg",
+    "status": "design-preview"
+  },
+  {
+    "id": "T064",
+    "sourceIndex": 64,
+    "title": "AI Product Name Generator",
+    "originalTitle": "AI Product Name Generator",
+    "slug": "ai-product-name-generator",
+    "sourceUrl": "https://quillbot.com/ai-writing-tools/ai-product-name-generator",
+    "source": "uploaded markdown",
+    "category": "Ecommerce",
+    "audiences": [
+      "Creators",
+      "Professional"
+    ],
+    "engine": "generate",
+    "archetype": "generator",
+    "description": "Create a structured product name from your brief.",
+    "fields": [
+      "Product name and attributes",
+      "Intended customer",
+      "Verified benefits and specifications"
+    ],
+    "example": "A lightweight, refillable notebook with recycled paper.",
+    "phase": "P2",
+    "dependency": "Text model + versioned prompt",
+    "features": [
+      "Task-specific brief",
+      "Audience and constraints",
+      "Tone and language",
+      "Editable result",
+      "Copy and TXT export"
+    ],
+    "screenshot": "screenshots/tools/ai-product-name-generator.jpg",
+    "status": "design-preview"
+  },
+  {
+    "id": "T065",
+    "sourceIndex": 65,
+    "title": "AI Book Title Generator",
+    "originalTitle": "AI Book Title Generator",
+    "slug": "ai-book-title-generator",
+    "sourceUrl": "https://quillbot.com/ai-writing-tools/ai-book-title-generator",
+    "source": "uploaded markdown",
+    "category": "Creative",
+    "audiences": [
+      "Creators",
+      "Personal"
+    ],
+    "engine": "generate",
+    "archetype": "generator",
+    "description": "Create a structured book title from your brief.",
+    "fields": [
+      "Premise or creative brief",
+      "Genre and audience",
+      "Characters, mood or constraints"
+    ],
+    "example": "A quiet bookshop where handwritten notes reveal a forgotten friendship.",
+    "phase": "P2",
+    "dependency": "Text model + versioned prompt",
+    "features": [
+      "Task-specific brief",
+      "Audience and constraints",
+      "Tone and language",
+      "Editable result",
+      "Copy and TXT export"
+    ],
+    "screenshot": "screenshots/tools/ai-book-title-generator.jpg",
+    "status": "design-preview"
+  },
+  {
+    "id": "T066",
+    "sourceIndex": 66,
+    "title": "AI Response Generator",
+    "originalTitle": "AI Response Generator",
+    "slug": "ai-response-generator",
+    "sourceUrl": "https://quillbot.com/ai-writing-tools/ai-response-generator",
+    "source": "uploaded markdown",
+    "category": "Email",
+    "audiences": [
+      "Professional",
+      "Creators",
+      "Personal"
+    ],
+    "engine": "generate",
+    "archetype": "generator",
+    "description": "Create a structured response from your brief.",
+    "fields": [
+      "Purpose and recipient context",
+      "Details to include",
+      "Desired response"
+    ],
+    "example": "Follow up on a product demo and propose a 20-minute call next Tuesday.",
+    "phase": "P2",
+    "dependency": "Text model + versioned prompt",
+    "features": [
+      "Task-specific brief",
+      "Audience and constraints",
+      "Tone and language",
+      "Editable result",
+      "Copy and TXT export"
+    ],
+    "screenshot": "screenshots/tools/ai-response-generator.jpg",
+    "status": "design-preview"
+  },
+  {
+    "id": "T067",
+    "sourceIndex": 67,
+    "title": "AI SMART Goals Generator",
+    "originalTitle": "AI SMART Goals Generator",
+    "slug": "ai-smart-goals-generator",
+    "sourceUrl": "https://quillbot.com/ai-writing-tools/ai-smart-goals-generator",
+    "source": "uploaded markdown",
+    "category": "Product & operations",
+    "audiences": [
+      "Professional",
+      "Creators"
+    ],
+    "engine": "generate",
+    "archetype": "generator",
+    "description": "Create a structured smart goals from your brief.",
+    "fields": [
+      "Project or business context",
+      "Goals and requirements",
+      "Scope, owners and constraints"
+    ],
+    "example": "Launch a collaborative writing workspace with comments and version history.",
+    "phase": "P2",
+    "dependency": "Text model + versioned prompt",
+    "features": [
+      "Task-specific brief",
+      "Audience and constraints",
+      "Tone and language",
+      "Editable result",
+      "Copy and TXT export"
+    ],
+    "screenshot": "screenshots/tools/ai-smart-goals-generator.jpg",
+    "status": "design-preview"
+  },
+  {
+    "id": "T068",
+    "sourceIndex": 68,
+    "title": "AI Product Title Generator",
+    "originalTitle": "AI Product Title Generator",
+    "slug": "ai-product-title-generator",
+    "sourceUrl": "https://quillbot.com/ai-writing-tools/ai-product-title-generator",
+    "source": "uploaded markdown",
+    "category": "Ecommerce",
+    "audiences": [
+      "Creators",
+      "Professional"
+    ],
+    "engine": "generate",
+    "archetype": "generator",
+    "description": "Create a structured product title from your brief.",
+    "fields": [
+      "Product name and attributes",
+      "Intended customer",
+      "Verified benefits and specifications"
+    ],
+    "example": "A lightweight, refillable notebook with recycled paper.",
+    "phase": "P2",
+    "dependency": "Text model + versioned prompt",
+    "features": [
+      "Task-specific brief",
+      "Audience and constraints",
+      "Tone and language",
+      "Editable result",
+      "Copy and TXT export"
+    ],
+    "screenshot": "screenshots/tools/ai-product-title-generator.jpg",
+    "status": "design-preview"
+  },
+  {
+    "id": "T069",
+    "sourceIndex": 69,
+    "title": "AI Blog Post Generator",
+    "originalTitle": "AI Blog post generator",
+    "slug": "ai-blog-post-generator",
+    "sourceUrl": "https://quillbot.com/ai-writing-tools/ai-blog-post-generator",
+    "source": "uploaded markdown",
+    "category": "SEO",
+    "audiences": [
+      "Creators",
+      "Professional"
+    ],
+    "engine": "generate",
+    "archetype": "generator",
+    "description": "Create a structured blog post from your brief.",
+    "fields": [
+      "Topic and primary keyword",
+      "Search intent and audience",
+      "Verified facts and internal links"
+    ],
+    "example": "A practical guide to building a consistent writing habit for busy founders.",
+    "phase": "P1",
+    "dependency": "Text model + versioned prompt",
+    "features": [
+      "Task-specific brief",
+      "Audience and constraints",
+      "Tone and language",
+      "Editable result",
+      "Copy and TXT export"
+    ],
+    "screenshot": "screenshots/tools/ai-blog-post-generator.jpg",
+    "status": "design-preview"
+  },
+  {
+    "id": "T070",
+    "sourceIndex": 70,
+    "title": "AI Memo Writer",
+    "originalTitle": "AI Memo Writer",
+    "slug": "ai-memo-writer",
+    "sourceUrl": "https://quillbot.com/ai-writing-tools/ai-memo-writer",
+    "source": "uploaded markdown",
+    "category": "Product & operations",
+    "audiences": [
+      "Professional",
+      "Creators"
+    ],
+    "engine": "generate",
+    "archetype": "generator",
+    "description": "Create a structured memo from your brief.",
+    "fields": [
+      "Project or business context",
+      "Goals and requirements",
+      "Scope, owners and constraints"
+    ],
+    "example": "Launch a collaborative writing workspace with comments and version history.",
+    "phase": "P2",
+    "dependency": "Text model + versioned prompt",
+    "features": [
+      "Task-specific brief",
+      "Audience and constraints",
+      "Tone and language",
+      "Editable result",
+      "Copy and TXT export"
+    ],
+    "screenshot": "screenshots/tools/ai-memo-writer.jpg",
+    "status": "design-preview"
+  },
+  {
+    "id": "T071",
+    "sourceIndex": 71,
+    "title": "AI Thesis Statement Generator",
+    "originalTitle": "AI Thesis Statement Generator",
+    "slug": "ai-thesis-statement-generator",
+    "sourceUrl": "https://quillbot.com/ai-writing-tools/ai-thesis-statement-generator",
+    "source": "uploaded markdown",
+    "category": "Academic",
+    "audiences": [
+      "Academic"
+    ],
+    "engine": "generate",
+    "archetype": "generator",
+    "description": "Create a structured thesis statement from your brief.",
+    "fields": [
+      "Research question",
+      "Your argument",
+      "Supporting evidence"
+    ],
+    "example": "Explain renewable energy sources to a year-nine science class.",
+    "phase": "P2",
+    "dependency": "Text model + versioned prompt",
+    "features": [
+      "Task-specific brief",
+      "Audience and constraints",
+      "Tone and language",
+      "Editable result",
+      "Copy and TXT export"
+    ],
+    "screenshot": "screenshots/tools/ai-thesis-statement-generator.jpg",
+    "status": "design-preview"
+  },
+  {
+    "id": "T072",
+    "sourceIndex": 72,
+    "title": "AI Business Plan Generator",
+    "originalTitle": "AI Business Plan Generator",
+    "slug": "ai-business-plan-generator",
+    "sourceUrl": "https://quillbot.com/ai-writing-tools/ai-business-plan-generator",
+    "source": "uploaded markdown",
+    "category": "Product & operations",
+    "audiences": [
+      "Professional",
+      "Creators"
+    ],
+    "engine": "generate",
+    "archetype": "generator",
+    "description": "Create a structured business plan from your brief.",
+    "fields": [
+      "Business and market",
+      "Business model and evidence",
+      "Costs, assumptions and milestones"
+    ],
+    "example": "Launch a collaborative writing workspace with comments and version history.",
+    "phase": "P2",
+    "dependency": "Text model + versioned prompt",
+    "features": [
+      "Task-specific brief",
+      "Audience and constraints",
+      "Tone and language",
+      "Editable result",
+      "Copy and TXT export"
+    ],
+    "screenshot": "screenshots/tools/ai-business-plan-generator.jpg",
+    "status": "design-preview"
+  },
+  {
+    "id": "T073",
+    "sourceIndex": 73,
+    "title": "AI Slack Message Generator",
+    "originalTitle": "AI Slack Message Generator",
+    "slug": "ai-slack-message-generator",
+    "sourceUrl": "https://quillbot.com/ai-writing-tools/ai-slack-message-generator",
+    "source": "uploaded markdown",
+    "category": "Product & operations",
+    "audiences": [
+      "Professional",
+      "Creators"
+    ],
+    "engine": "generate",
+    "archetype": "generator",
+    "description": "Create a structured slack message from your brief.",
+    "fields": [
+      "Project or business context",
+      "Goals and requirements",
+      "Scope, owners and constraints"
+    ],
+    "example": "Launch a collaborative writing workspace with comments and version history.",
+    "phase": "P2",
+    "dependency": "Text model + versioned prompt",
+    "features": [
+      "Task-specific brief",
+      "Audience and constraints",
+      "Tone and language",
+      "Editable result",
+      "Copy and TXT export"
+    ],
+    "screenshot": "screenshots/tools/ai-slack-message-generator.jpg",
+    "status": "design-preview"
+  },
+  {
+    "id": "T074",
+    "sourceIndex": 74,
+    "title": "AI Personal Mission Statement Generator",
+    "originalTitle": "AI Personal Mission Statement Generator",
+    "slug": "ai-personal-mission-statement-generator",
+    "sourceUrl": "https://quillbot.com/ai-writing-tools/ai-personal-mission-statement-generator",
+    "source": "uploaded markdown",
+    "category": "Personal",
+    "audiences": [
+      "Personal"
+    ],
+    "engine": "generate",
+    "archetype": "generator",
+    "description": "Create a structured personal mission statement from your brief.",
+    "fields": [
+      "Goal or occasion",
+      "Preferences and context",
+      "Constraints"
+    ],
+    "example": "Plan a thoughtful weekend celebration with a small group of friends.",
+    "phase": "P2",
+    "dependency": "Text model + versioned prompt",
+    "features": [
+      "Task-specific brief",
+      "Audience and constraints",
+      "Tone and language",
+      "Editable result",
+      "Copy and TXT export"
+    ],
+    "screenshot": "screenshots/tools/ai-personal-mission-statement-generator.jpg",
+    "status": "design-preview"
+  },
+  {
+    "id": "T075",
+    "sourceIndex": 75,
+    "title": "AI Meta Description Generator",
+    "originalTitle": "AI Meta Description Generator",
+    "slug": "ai-meta-description-generator",
+    "sourceUrl": "https://quillbot.com/ai-writing-tools/ai-meta-description-generator",
+    "source": "uploaded markdown",
+    "category": "SEO",
+    "audiences": [
+      "Creators",
+      "Professional"
+    ],
+    "engine": "generate",
+    "archetype": "generator",
+    "description": "Create a structured meta description from your brief.",
+    "fields": [
+      "Topic and primary keyword",
+      "Search intent and audience",
+      "Verified facts and internal links"
+    ],
+    "example": "A practical guide to building a consistent writing habit for busy founders.",
+    "phase": "P1",
+    "dependency": "Text model + versioned prompt",
+    "features": [
+      "Task-specific brief",
+      "Audience and constraints",
+      "Tone and language",
+      "Editable result",
+      "Copy and TXT export"
+    ],
+    "screenshot": "screenshots/tools/ai-meta-description-generator.jpg",
+    "status": "design-preview"
+  },
+  {
+    "id": "T076",
+    "sourceIndex": 76,
+    "title": "AI Job Description Generator",
+    "originalTitle": "AI Job Description Generator",
+    "slug": "ai-job-description-generator",
+    "sourceUrl": "https://quillbot.com/ai-writing-tools/ai-job-description-generator",
+    "source": "uploaded markdown",
+    "category": "People & careers",
+    "audiences": [
+      "Professional",
+      "Academic",
+      "Personal"
+    ],
+    "engine": "generate",
+    "archetype": "generator",
+    "description": "Create a structured job description from your brief.",
+    "fields": [
+      "Role title and level",
+      "Responsibilities",
+      "Required and optional skills"
+    ],
+    "example": "A content strategist role at a small remote software company.",
+    "phase": "P2",
+    "dependency": "Text model + versioned prompt",
+    "features": [
+      "Task-specific brief",
+      "Audience and constraints",
+      "Tone and language",
+      "Editable result",
+      "Copy and TXT export"
+    ],
+    "screenshot": "screenshots/tools/ai-job-description-generator.jpg",
+    "status": "design-preview"
+  },
+  {
+    "id": "T077",
+    "sourceIndex": 77,
+    "title": "AI Job Posting Generator",
+    "originalTitle": "AI Job Posting Generator",
+    "slug": "ai-job-posting-generator",
+    "sourceUrl": "https://quillbot.com/ai-writing-tools/ai-job-posting-generator",
+    "source": "uploaded markdown",
+    "category": "People & careers",
+    "audiences": [
+      "Professional",
+      "Academic",
+      "Personal"
+    ],
+    "engine": "generate",
+    "archetype": "generator",
+    "description": "Create a structured job posting from your brief.",
+    "fields": [
+      "Role and organization",
+      "Verified experience or requirements",
+      "Details and constraints"
+    ],
+    "example": "A content strategist role at a small remote software company.",
+    "phase": "P2",
+    "dependency": "Text model + versioned prompt",
+    "features": [
+      "Task-specific brief",
+      "Audience and constraints",
+      "Tone and language",
+      "Editable result",
+      "Copy and TXT export"
+    ],
+    "screenshot": "screenshots/tools/ai-job-posting-generator.jpg",
+    "status": "design-preview"
+  },
+  {
+    "id": "T078",
+    "sourceIndex": 78,
+    "title": "AI To-Do List Generator",
+    "originalTitle": "AI To-Do List Generator",
+    "slug": "ai-to-do-list-generator",
+    "sourceUrl": "https://quillbot.com/ai-writing-tools/ai-to-do-list-generator",
+    "source": "uploaded markdown",
+    "category": "Personal",
+    "audiences": [
+      "Personal"
+    ],
+    "engine": "generate",
+    "archetype": "generator",
+    "description": "Create a structured to-do list from your brief.",
+    "fields": [
+      "Goal or occasion",
+      "Preferences and context",
+      "Constraints"
+    ],
+    "example": "Plan a thoughtful weekend celebration with a small group of friends.",
+    "phase": "P2",
+    "dependency": "Text model + versioned prompt",
+    "features": [
+      "Task-specific brief",
+      "Audience and constraints",
+      "Tone and language",
+      "Editable result",
+      "Copy and TXT export"
+    ],
+    "screenshot": "screenshots/tools/ai-to-do-list-generator.jpg",
+    "status": "design-preview"
+  },
+  {
+    "id": "T079",
+    "sourceIndex": 79,
+    "title": "AI Content Brief Generator",
+    "originalTitle": "AI Content Brief Generator",
+    "slug": "ai-content-brief-generator",
+    "sourceUrl": "https://quillbot.com/ai-writing-tools/ai-content-brief-generator",
+    "source": "uploaded markdown",
+    "category": "SEO",
+    "audiences": [
+      "Creators",
+      "Professional"
+    ],
+    "engine": "generate",
+    "archetype": "generator",
+    "description": "Create a structured content brief from your brief.",
+    "fields": [
+      "Topic and primary keyword",
+      "Search intent and audience",
+      "Verified facts and internal links"
+    ],
+    "example": "A practical guide to building a consistent writing habit for busy founders.",
+    "phase": "P1",
+    "dependency": "Text model + versioned prompt",
+    "features": [
+      "Task-specific brief",
+      "Audience and constraints",
+      "Tone and language",
+      "Editable result",
+      "Copy and TXT export"
+    ],
+    "screenshot": "screenshots/tools/ai-content-brief-generator.jpg",
+    "status": "design-preview"
+  },
+  {
+    "id": "T080",
+    "sourceIndex": 80,
+    "title": "AI Travel Itinerary Generator",
+    "originalTitle": "AI Travel Itinerary Generator",
+    "slug": "ai-travel-itinerary-generator",
+    "sourceUrl": "https://quillbot.com/ai-writing-tools/ai-travel-itinerary-generator",
+    "source": "uploaded markdown",
+    "category": "Personal",
+    "audiences": [
+      "Personal"
+    ],
+    "engine": "generate",
+    "archetype": "generator",
+    "description": "Create a structured travel itinerary from your brief.",
+    "fields": [
+      "Destination and dates",
+      "Budget and travel preferences",
+      "Accessibility or other constraints"
+    ],
+    "example": "Plan a thoughtful weekend celebration with a small group of friends.",
+    "phase": "P2",
+    "dependency": "Text model + versioned prompt",
+    "features": [
+      "Task-specific brief",
+      "Audience and constraints",
+      "Tone and language",
+      "Editable result",
+      "Copy and TXT export"
+    ],
+    "screenshot": "screenshots/tools/ai-travel-itinerary-generator.jpg",
+    "status": "design-preview"
+  },
+  {
+    "id": "T081",
+    "sourceIndex": 81,
+    "title": "AI Content Idea Generator",
+    "originalTitle": "AI Content Idea Generator",
+    "slug": "ai-content-idea-generator",
+    "sourceUrl": "https://quillbot.com/ai-writing-tools/ai-content-idea-generator",
+    "source": "uploaded markdown",
+    "category": "SEO",
+    "audiences": [
+      "Creators",
+      "Professional"
+    ],
+    "engine": "generate",
+    "archetype": "generator",
+    "description": "Create a structured content idea from your brief.",
+    "fields": [
+      "Topic and primary keyword",
+      "Search intent and audience",
+      "Verified facts and internal links"
+    ],
+    "example": "A practical guide to building a consistent writing habit for busy founders.",
+    "phase": "P1",
+    "dependency": "Text model + versioned prompt",
+    "features": [
+      "Task-specific brief",
+      "Audience and constraints",
+      "Tone and language",
+      "Editable result",
+      "Copy and TXT export"
+    ],
+    "screenshot": "screenshots/tools/ai-content-idea-generator.jpg",
+    "status": "design-preview"
+  },
+  {
+    "id": "T082",
+    "sourceIndex": 82,
+    "title": "AI Business Name Generator",
+    "originalTitle": "AI Business Name Generator",
+    "slug": "ai-business-name-generator",
+    "sourceUrl": "https://quillbot.com/ai-writing-tools/ai-business-name-generator",
+    "source": "uploaded markdown",
+    "category": "Marketing",
+    "audiences": [
+      "Professional",
+      "Creators"
+    ],
+    "engine": "generate",
+    "archetype": "generator",
+    "description": "Create a structured business name from your brief.",
+    "fields": [
+      "Product or business",
+      "Target audience",
+      "Benefits and proof points"
+    ],
+    "example": "A writing workspace that helps small teams review drafts together.",
+    "phase": "P2",
+    "dependency": "Text model + versioned prompt",
+    "features": [
+      "Task-specific brief",
+      "Audience and constraints",
+      "Tone and language",
+      "Editable result",
+      "Copy and TXT export"
+    ],
+    "screenshot": "screenshots/tools/ai-business-name-generator.jpg",
+    "status": "design-preview"
+  },
+  {
+    "id": "T083",
+    "sourceIndex": 83,
+    "title": "AI Character Name Generator",
+    "originalTitle": "AI Character Name Generator",
+    "slug": "ai-character-name-generator",
+    "sourceUrl": "https://quillbot.com/ai-writing-tools/ai-character-name-generator",
+    "source": "uploaded markdown",
+    "category": "Creative",
+    "audiences": [
+      "Creators",
+      "Personal"
+    ],
+    "engine": "generate",
+    "archetype": "generator",
+    "description": "Create a structured character name from your brief.",
+    "fields": [
+      "Premise or creative brief",
+      "Genre and audience",
+      "Characters, mood or constraints"
+    ],
+    "example": "A quiet bookshop where handwritten notes reveal a forgotten friendship.",
+    "phase": "P2",
+    "dependency": "Text model + versioned prompt",
+    "features": [
+      "Task-specific brief",
+      "Audience and constraints",
+      "Tone and language",
+      "Editable result",
+      "Copy and TXT export"
+    ],
+    "screenshot": "screenshots/tools/ai-character-name-generator.jpg",
+    "status": "design-preview"
+  },
+  {
+    "id": "T084",
+    "sourceIndex": 84,
+    "title": "PPT to PDF",
+    "originalTitle": "PPT to PDF",
+    "slug": "ppt-to-pdf",
+    "sourceUrl": "https://quillbot.com/pdf-tools/ppt-to-pdf",
+    "source": "uploaded markdown",
+    "category": "PDFs",
+    "audiences": [
+      "Creators",
+      "Professional",
+      "Academic",
+      "Personal"
+    ],
+    "engine": "pdf-convert",
+    "archetype": "pdf",
+    "description": "Convert a document and check its layout.",
+    "fields": [
+      "Your brief",
+      "Audience",
+      "Details and constraints"
+    ],
+    "example": "A clear, specific brief with all the facts you want to preserve.",
+    "phase": "P3",
+    "dependency": "Sandboxed conversion worker",
+    "features": [
+      "File input",
+      "Page count",
+      "Page preview",
+      "Job status",
+      "Output or cited answer"
+    ],
+    "screenshot": "screenshots/tools/ppt-to-pdf.jpg",
+    "status": "design-preview"
+  },
+  {
+    "id": "T085",
+    "sourceIndex": 85,
+    "title": "AI Resignation Email Writer",
+    "originalTitle": "AI Resignation Email Writer",
+    "slug": "ai-resignation-letter-writer",
+    "sourceUrl": "https://quillbot.com/ai-writing-tools/ai-resignation-letter-writer",
+    "source": "uploaded markdown",
+    "category": "Email",
+    "audiences": [
+      "Professional",
+      "Creators",
+      "Personal"
+    ],
+    "engine": "generate",
+    "archetype": "generator",
+    "description": "Create a structured resignation email from your brief.",
+    "fields": [
+      "Purpose and recipient context",
+      "Details to include",
+      "Desired response"
+    ],
+    "example": "Follow up on a product demo and propose a 20-minute call next Tuesday.",
+    "phase": "P2",
+    "dependency": "Text model + versioned prompt",
+    "features": [
+      "Task-specific brief",
+      "Audience and constraints",
+      "Tone and language",
+      "Editable result",
+      "Copy and TXT export"
+    ],
+    "screenshot": "screenshots/tools/ai-resignation-letter-writer.jpg",
+    "status": "design-preview"
+  },
+  {
+    "id": "T086",
+    "sourceIndex": 86,
+    "title": "AI API Documentation Generator",
+    "originalTitle": "AI API Documentation Generator",
+    "slug": "ai-api-documentation-generator",
+    "sourceUrl": "https://quillbot.com/ai-writing-tools/ai-api-documentation-generator",
+    "source": "uploaded markdown",
+    "category": "Product & operations",
+    "audiences": [
+      "Professional",
+      "Creators"
+    ],
+    "engine": "generate",
+    "archetype": "generator",
+    "description": "Create a structured api documentation from your brief.",
+    "fields": [
+      "API specification or code",
+      "Authentication and endpoints",
+      "Request, response and error examples"
+    ],
+    "example": "Launch a collaborative writing workspace with comments and version history.",
+    "phase": "P2",
+    "dependency": "Text model + versioned prompt",
+    "features": [
+      "Task-specific brief",
+      "Audience and constraints",
+      "Tone and language",
+      "Editable result",
+      "Copy and TXT export"
+    ],
+    "screenshot": "screenshots/tools/ai-api-documentation-generator.jpg",
+    "status": "design-preview"
+  },
+  {
+    "id": "T087",
+    "sourceIndex": 87,
+    "title": "AI Follow-up Email Generator",
+    "originalTitle": "AI Follow-up Email Generator",
+    "slug": "ai-follow-up-email-generator",
+    "sourceUrl": "https://quillbot.com/ai-writing-tools/ai-follow-up-email-generator",
+    "source": "uploaded markdown",
+    "category": "Email",
+    "audiences": [
+      "Professional",
+      "Creators",
+      "Personal"
+    ],
+    "engine": "generate",
+    "archetype": "generator",
+    "description": "Create a structured follow-up email from your brief.",
+    "fields": [
+      "Purpose and recipient context",
+      "Details to include",
+      "Desired response"
+    ],
+    "example": "Follow up on a product demo and propose a 20-minute call next Tuesday.",
+    "phase": "P1",
+    "dependency": "Text model + versioned prompt",
+    "features": [
+      "Task-specific brief",
+      "Audience and constraints",
+      "Tone and language",
+      "Editable result",
+      "Copy and TXT export"
+    ],
+    "screenshot": "screenshots/tools/ai-follow-up-email-generator.jpg",
+    "status": "design-preview"
+  },
+  {
+    "id": "T088",
+    "sourceIndex": 88,
+    "title": "AI Status Report Generator",
+    "originalTitle": "AI Status Report Generator",
+    "slug": "ai-status-report-generator",
+    "sourceUrl": "https://quillbot.com/ai-writing-tools/ai-status-report-generator",
+    "source": "uploaded markdown",
+    "category": "Product & operations",
+    "audiences": [
+      "Professional",
+      "Creators"
+    ],
+    "engine": "generate",
+    "archetype": "generator",
+    "description": "Create a structured status report from your brief.",
+    "fields": [
+      "Project or business context",
+      "Goals and requirements",
+      "Scope, owners and constraints"
+    ],
+    "example": "Launch a collaborative writing workspace with comments and version history.",
+    "phase": "P2",
+    "dependency": "Text model + versioned prompt",
+    "features": [
+      "Task-specific brief",
+      "Audience and constraints",
+      "Tone and language",
+      "Editable result",
+      "Copy and TXT export"
+    ],
+    "screenshot": "screenshots/tools/ai-status-report-generator.jpg",
+    "status": "design-preview"
+  },
+  {
+    "id": "T089",
+    "sourceIndex": 89,
+    "title": "AI Art Prompt Generator",
+    "originalTitle": "AI Art Prompt Generator",
+    "slug": "ai-art-prompt-generator",
+    "sourceUrl": "https://quillbot.com/ai-writing-tools/ai-art-prompt-generator",
+    "source": "uploaded markdown",
+    "category": "Creative",
+    "audiences": [
+      "Creators",
+      "Personal"
+    ],
+    "engine": "generate",
+    "archetype": "generator",
+    "description": "Create a structured art prompt from your brief.",
+    "fields": [
+      "Premise or creative brief",
+      "Genre and audience",
+      "Characters, mood or constraints"
+    ],
+    "example": "A quiet bookshop where handwritten notes reveal a forgotten friendship.",
+    "phase": "P2",
+    "dependency": "Text model + versioned prompt",
+    "features": [
+      "Task-specific brief",
+      "Audience and constraints",
+      "Tone and language",
+      "Editable result",
+      "Copy and TXT export"
+    ],
+    "screenshot": "screenshots/tools/ai-art-prompt-generator.jpg",
+    "status": "design-preview"
+  },
+  {
+    "id": "T090",
+    "sourceIndex": 90,
+    "title": "AI Offer Letter Generator",
+    "originalTitle": "AI Offer Letter Generator",
+    "slug": "ai-offer-letter-generator",
+    "sourceUrl": "https://quillbot.com/ai-writing-tools/ai-offer-letter-generator",
+    "source": "uploaded markdown",
+    "category": "People & careers",
+    "audiences": [
+      "Professional",
+      "Academic",
+      "Personal"
+    ],
+    "engine": "generate",
+    "archetype": "generator",
+    "description": "Create a structured offer letter from your brief.",
+    "fields": [
+      "Role, location and start date",
+      "Approved compensation and benefits",
+      "Employer-approved terms"
+    ],
+    "example": "A content strategist role at a small remote software company.",
+    "phase": "P2",
+    "dependency": "Text model + versioned prompt",
+    "features": [
+      "Task-specific brief",
+      "Audience and constraints",
+      "Tone and language",
+      "Editable result",
+      "Copy and TXT export"
+    ],
+    "screenshot": "screenshots/tools/ai-offer-letter-generator.jpg",
+    "status": "design-preview"
+  },
+  {
+    "id": "T091",
+    "sourceIndex": 91,
+    "title": "Word to PDF",
+    "originalTitle": "Word to PDF",
+    "slug": "word-to-pdf",
+    "sourceUrl": "https://quillbot.com/pdf-tools/word-to-pdf",
+    "source": "uploaded markdown",
+    "category": "PDFs",
+    "audiences": [
+      "Creators",
+      "Professional",
+      "Academic",
+      "Personal"
+    ],
+    "engine": "pdf-convert",
+    "archetype": "pdf",
+    "description": "Convert a document and check its layout.",
+    "fields": [
+      "Your brief",
+      "Audience",
+      "Details and constraints"
+    ],
+    "example": "A clear, specific brief with all the facts you want to preserve.",
+    "phase": "P3",
+    "dependency": "Sandboxed conversion worker",
+    "features": [
+      "File input",
+      "Page count",
+      "Page preview",
+      "Job status",
+      "Output or cited answer"
+    ],
+    "screenshot": "screenshots/tools/word-to-pdf.jpg",
+    "status": "design-preview"
+  },
+  {
+    "id": "T092",
+    "sourceIndex": 92,
+    "title": "AI Lesson Plan Generator",
+    "originalTitle": "AI Lesson Plan Generator",
+    "slug": "ai-lesson-plan-generator",
+    "sourceUrl": "https://quillbot.com/ai-writing-tools/ai-lesson-plan-generator",
+    "source": "uploaded markdown",
+    "category": "Academic",
+    "audiences": [
+      "Academic"
+    ],
+    "engine": "generate",
+    "archetype": "generator",
+    "description": "Create a structured lesson plan from your brief.",
+    "fields": [
+      "Subject and learning level",
+      "Instructions and source material",
+      "Required structure"
+    ],
+    "example": "Explain renewable energy sources to a year-nine science class.",
+    "phase": "P2",
+    "dependency": "Text model + versioned prompt",
+    "features": [
+      "Task-specific brief",
+      "Audience and constraints",
+      "Tone and language",
+      "Editable result",
+      "Copy and TXT export"
+    ],
+    "screenshot": "screenshots/tools/ai-lesson-plan-generator.jpg",
+    "status": "design-preview"
+  },
+  {
+    "id": "T093",
+    "sourceIndex": 93,
+    "title": "Statement of Purpose Writer",
+    "originalTitle": "AI SOP Writer Generator",
+    "slug": "statement-of-purpose-writer",
+    "sourceUrl": "https://quillbot.com/ai-writing-tools/ai-sop-writer",
+    "source": "uploaded markdown",
+    "category": "Academic",
+    "audiences": [
+      "Academic"
+    ],
+    "engine": "generate",
+    "archetype": "generator",
+    "description": "Create a structured statement of purpose from your brief.",
+    "fields": [
+      "Programme and university",
+      "Your achievements and motivation",
+      "Word limit and application instructions"
+    ],
+    "example": "Explain renewable energy sources to a year-nine science class.",
+    "phase": "P2",
+    "dependency": "Text model + versioned prompt",
+    "features": [
+      "Task-specific brief",
+      "Audience and constraints",
+      "Tone and language",
+      "Editable result",
+      "Copy and TXT export"
+    ],
+    "screenshot": "screenshots/tools/statement-of-purpose-writer.jpg",
+    "status": "design-preview"
+  },
+  {
+    "id": "T094",
+    "sourceIndex": 94,
+    "title": "AI SEO Title Generator",
+    "originalTitle": "AI SEO Title Generator",
+    "slug": "ai-seo-title-generator",
+    "sourceUrl": "https://quillbot.com/ai-writing-tools/ai-seo-title-generator",
+    "source": "uploaded markdown",
+    "category": "SEO",
+    "audiences": [
+      "Creators",
+      "Professional"
+    ],
+    "engine": "generate",
+    "archetype": "generator",
+    "description": "Create a structured seo title from your brief.",
+    "fields": [
+      "Page topic and primary keyword",
+      "Search intent",
+      "Brand name"
+    ],
+    "example": "A practical guide to building a consistent writing habit for busy founders.",
+    "phase": "P1",
+    "dependency": "Text model + versioned prompt",
+    "features": [
+      "Task-specific brief",
+      "Audience and constraints",
+      "Tone and language",
+      "Editable result",
+      "Copy and TXT export"
+    ],
+    "screenshot": "screenshots/tools/ai-seo-title-generator.jpg",
+    "status": "design-preview"
+  },
+  {
+    "id": "T095",
+    "sourceIndex": 95,
+    "title": "AI Student Reference Letter Generator",
+    "originalTitle": "AI Student Reference Letter Generator",
+    "slug": "ai-student-reference-letter-generator",
+    "sourceUrl": "https://quillbot.com/ai-writing-tools/ai-student-reference-letter-generator",
+    "source": "uploaded markdown",
+    "category": "Academic",
+    "audiences": [
+      "Academic"
+    ],
+    "engine": "generate",
+    "archetype": "generator",
+    "description": "Create a structured student reference letter from your brief.",
+    "fields": [
+      "Subject and learning level",
+      "Instructions and source material",
+      "Required structure"
+    ],
+    "example": "Explain renewable energy sources to a year-nine science class.",
+    "phase": "P2",
+    "dependency": "Text model + versioned prompt",
+    "features": [
+      "Task-specific brief",
+      "Audience and constraints",
+      "Tone and language",
+      "Editable result",
+      "Copy and TXT export"
+    ],
+    "screenshot": "screenshots/tools/ai-student-reference-letter-generator.jpg",
+    "status": "design-preview"
+  },
+  {
+    "id": "T096",
+    "sourceIndex": 96,
+    "title": "AI Ad Copy Generator",
+    "originalTitle": "AI Ad copy generator",
+    "slug": "ai-ad-copy-generator",
+    "sourceUrl": "https://quillbot.com/ai-writing-tools/ai-ad-copy-generator",
+    "source": "uploaded markdown",
+    "category": "Marketing",
+    "audiences": [
+      "Professional",
+      "Creators"
+    ],
+    "engine": "generate",
+    "archetype": "generator",
+    "description": "Create a structured ad copy from your brief.",
+    "fields": [
+      "Product or business",
+      "Target audience",
+      "Benefits and proof points"
+    ],
+    "example": "A writing workspace that helps small teams review drafts together.",
+    "phase": "P1",
+    "dependency": "Text model + versioned prompt",
+    "features": [
+      "Task-specific brief",
+      "Audience and constraints",
+      "Tone and language",
+      "Editable result",
+      "Copy and TXT export"
+    ],
+    "screenshot": "screenshots/tools/ai-ad-copy-generator.jpg",
+    "status": "design-preview"
+  },
+  {
+    "id": "T097",
+    "sourceIndex": 97,
+    "title": "AI Process Documentation Generator",
+    "originalTitle": "AI Process documentation Generator",
+    "slug": "ai-process-documentation-generator",
+    "sourceUrl": "https://quillbot.com/ai-writing-tools/ai-process-documentation-generator",
+    "source": "uploaded markdown",
+    "category": "Product & operations",
+    "audiences": [
+      "Professional",
+      "Creators"
+    ],
+    "engine": "generate",
+    "archetype": "generator",
+    "description": "Create a structured process documentation from your brief.",
+    "fields": [
+      "Project or business context",
+      "Goals and requirements",
+      "Scope, owners and constraints"
+    ],
+    "example": "Launch a collaborative writing workspace with comments and version history.",
+    "phase": "P2",
+    "dependency": "Text model + versioned prompt",
+    "features": [
+      "Task-specific brief",
+      "Audience and constraints",
+      "Tone and language",
+      "Editable result",
+      "Copy and TXT export"
+    ],
+    "screenshot": "screenshots/tools/ai-process-documentation-generator.jpg",
+    "status": "design-preview"
+  },
+  {
+    "id": "T098",
+    "sourceIndex": 98,
+    "title": "AI Product Promotion Generator",
+    "originalTitle": "AI Product Promotion Generator",
+    "slug": "ai-product-promotion-generator",
+    "sourceUrl": "https://quillbot.com/ai-writing-tools/ai-product-promotion-generator",
+    "source": "uploaded markdown",
+    "category": "Marketing",
+    "audiences": [
+      "Professional",
+      "Creators"
+    ],
+    "engine": "generate",
+    "archetype": "generator",
+    "description": "Create a structured product promotion from your brief.",
+    "fields": [
+      "Product or business",
+      "Target audience",
+      "Benefits and proof points"
+    ],
+    "example": "A writing workspace that helps small teams review drafts together.",
+    "phase": "P2",
+    "dependency": "Text model + versioned prompt",
+    "features": [
+      "Task-specific brief",
+      "Audience and constraints",
+      "Tone and language",
+      "Editable result",
+      "Copy and TXT export"
+    ],
+    "screenshot": "screenshots/tools/ai-product-promotion-generator.jpg",
+    "status": "design-preview"
+  },
+  {
+    "id": "T099",
+    "sourceIndex": 99,
+    "title": "AI Product Description Generator",
+    "originalTitle": "AI Product Description Generator",
+    "slug": "ai-product-description-generator",
+    "sourceUrl": "https://quillbot.com/ai-writing-tools/ai-product-description-generator",
+    "source": "uploaded markdown",
+    "category": "Ecommerce",
+    "audiences": [
+      "Creators",
+      "Professional"
+    ],
+    "engine": "generate",
+    "archetype": "generator",
+    "description": "Create a structured product description from your brief.",
+    "fields": [
+      "Product name and attributes",
+      "Intended customer",
+      "Verified benefits and specifications"
+    ],
+    "example": "A lightweight, refillable notebook with recycled paper.",
+    "phase": "P1",
+    "dependency": "Text model + versioned prompt",
+    "features": [
+      "Task-specific brief",
+      "Audience and constraints",
+      "Tone and language",
+      "Editable result",
+      "Copy and TXT export"
+    ],
+    "screenshot": "screenshots/tools/ai-product-description-generator.jpg",
+    "status": "design-preview"
+  },
+  {
+    "id": "T100",
+    "sourceIndex": 100,
+    "title": "AI Project Charter Generator",
+    "originalTitle": "AI Project Charter Generator",
+    "slug": "ai-project-charter-generator",
+    "sourceUrl": "https://quillbot.com/ai-writing-tools/ai-project-charter-generator",
+    "source": "uploaded markdown",
+    "category": "Product & operations",
+    "audiences": [
+      "Professional",
+      "Creators"
+    ],
+    "engine": "generate",
+    "archetype": "generator",
+    "description": "Create a structured project charter from your brief.",
+    "fields": [
+      "Project or business context",
+      "Goals and requirements",
+      "Scope, owners and constraints"
+    ],
+    "example": "Launch a collaborative writing workspace with comments and version history.",
+    "phase": "P2",
+    "dependency": "Text model + versioned prompt",
+    "features": [
+      "Task-specific brief",
+      "Audience and constraints",
+      "Tone and language",
+      "Editable result",
+      "Copy and TXT export"
+    ],
+    "screenshot": "screenshots/tools/ai-project-charter-generator.jpg",
+    "status": "design-preview"
+  },
+  {
+    "id": "T101",
+    "sourceIndex": 101,
+    "title": "Meeting Agenda",
+    "originalTitle": "Meeting Agenda",
+    "slug": "ai-meeting-agenda-generator",
+    "sourceUrl": "https://quillbot.com/ai-writing-tools/ai-meeting-agenda-generator",
+    "source": "uploaded markdown",
+    "category": "Product & operations",
+    "audiences": [
+      "Professional",
+      "Creators"
+    ],
+    "engine": "generate",
+    "archetype": "generator",
+    "description": "Create a structured meeting agenda from your brief.",
+    "fields": [
+      "Project or business context",
+      "Goals and requirements",
+      "Scope, owners and constraints"
+    ],
+    "example": "Launch a collaborative writing workspace with comments and version history.",
+    "phase": "P2",
+    "dependency": "Text model + versioned prompt",
+    "features": [
+      "Task-specific brief",
+      "Audience and constraints",
+      "Tone and language",
+      "Editable result",
+      "Copy and TXT export"
+    ],
+    "screenshot": "screenshots/tools/ai-meeting-agenda-generator.jpg",
+    "status": "design-preview"
+  },
+  {
+    "id": "T102",
+    "sourceIndex": 102,
+    "title": "AI Sales Pitch Generator",
+    "originalTitle": "AI Sales Pitch Generator",
+    "slug": "ai-sales-pitch-generator",
+    "sourceUrl": "https://quillbot.com/ai-writing-tools/ai-sales-pitch-generator",
+    "source": "uploaded markdown",
+    "category": "Sales",
+    "audiences": [
+      "Professional"
+    ],
+    "engine": "generate",
+    "archetype": "generator",
+    "description": "Create a structured sales pitch from your brief.",
+    "fields": [
+      "Product and prospect",
+      "Pain point and evidence",
+      "Desired next step"
+    ],
+    "example": "A shared writing workspace for a small content agency with slow review cycles.",
+    "phase": "P2",
+    "dependency": "Text model + versioned prompt",
+    "features": [
+      "Task-specific brief",
+      "Audience and constraints",
+      "Tone and language",
+      "Editable result",
+      "Copy and TXT export"
+    ],
+    "screenshot": "screenshots/tools/ai-sales-pitch-generator.jpg",
+    "status": "design-preview"
+  },
+  {
+    "id": "T103",
+    "sourceIndex": 103,
+    "title": "AI Mission Statement Generator",
+    "originalTitle": "AI Mission Statement Generator",
+    "slug": "ai-mission-statement-generator",
+    "sourceUrl": "https://quillbot.com/ai-writing-tools/ai-mission-statement-generator",
+    "source": "uploaded markdown",
+    "category": "Marketing",
+    "audiences": [
+      "Professional",
+      "Creators"
+    ],
+    "engine": "generate",
+    "archetype": "generator",
+    "description": "Create a structured mission statement from your brief.",
+    "fields": [
+      "Product or business",
+      "Target audience",
+      "Benefits and proof points"
+    ],
+    "example": "A writing workspace that helps small teams review drafts together.",
+    "phase": "P2",
+    "dependency": "Text model + versioned prompt",
+    "features": [
+      "Task-specific brief",
+      "Audience and constraints",
+      "Tone and language",
+      "Editable result",
+      "Copy and TXT export"
+    ],
+    "screenshot": "screenshots/tools/ai-mission-statement-generator.jpg",
+    "status": "design-preview"
+  },
+  {
+    "id": "T104",
+    "sourceIndex": 104,
+    "title": "AI Press Release Generator",
+    "originalTitle": "AI Press Release Generator",
+    "slug": "ai-press-release-generator",
+    "sourceUrl": "https://quillbot.com/ai-writing-tools/ai-press-release-generator",
+    "source": "uploaded markdown",
+    "category": "Marketing",
+    "audiences": [
+      "Professional",
+      "Creators"
+    ],
+    "engine": "generate",
+    "archetype": "generator",
+    "description": "Create a structured press release from your brief.",
+    "fields": [
+      "Product or business",
+      "Target audience",
+      "Benefits and proof points"
+    ],
+    "example": "A writing workspace that helps small teams review drafts together.",
+    "phase": "P2",
+    "dependency": "Text model + versioned prompt",
+    "features": [
+      "Task-specific brief",
+      "Audience and constraints",
+      "Tone and language",
+      "Editable result",
+      "Copy and TXT export"
+    ],
+    "screenshot": "screenshots/tools/ai-press-release-generator.jpg",
+    "status": "design-preview"
+  },
+  {
+    "id": "T105",
+    "sourceIndex": 105,
+    "title": "AI Character Description Generator",
+    "originalTitle": "AI Character Description Generator",
+    "slug": "ai-character-description-generator",
+    "sourceUrl": "https://quillbot.com/ai-writing-tools/ai-character-description-generator",
+    "source": "uploaded markdown",
+    "category": "Creative",
+    "audiences": [
+      "Creators",
+      "Personal"
+    ],
+    "engine": "generate",
+    "archetype": "generator",
+    "description": "Create a structured character description from your brief.",
+    "fields": [
+      "Premise or creative brief",
+      "Genre and audience",
+      "Characters, mood or constraints"
+    ],
+    "example": "A quiet bookshop where handwritten notes reveal a forgotten friendship.",
+    "phase": "P2",
+    "dependency": "Text model + versioned prompt",
+    "features": [
+      "Task-specific brief",
+      "Audience and constraints",
+      "Tone and language",
+      "Editable result",
+      "Copy and TXT export"
+    ],
+    "screenshot": "screenshots/tools/ai-character-description-generator.jpg",
+    "status": "design-preview"
+  },
+  {
+    "id": "T106",
+    "sourceIndex": 106,
+    "title": "AI Cold Email Generator",
+    "originalTitle": "AI Cold Email Generator",
+    "slug": "ai-cold-email-generator",
+    "sourceUrl": "https://quillbot.com/ai-writing-tools/ai-cold-email-generator",
+    "source": "uploaded markdown",
+    "category": "Email",
+    "audiences": [
+      "Professional",
+      "Creators",
+      "Personal"
+    ],
+    "engine": "generate",
+    "archetype": "generator",
+    "description": "Create a structured cold email from your brief.",
+    "fields": [
+      "Purpose and recipient context",
+      "Details to include",
+      "Desired response"
+    ],
+    "example": "Follow up on a product demo and propose a 20-minute call next Tuesday.",
+    "phase": "P1",
+    "dependency": "Text model + versioned prompt",
+    "features": [
+      "Task-specific brief",
+      "Audience and constraints",
+      "Tone and language",
+      "Editable result",
+      "Copy and TXT export"
+    ],
+    "screenshot": "screenshots/tools/ai-cold-email-generator.jpg",
+    "status": "design-preview"
+  },
+  {
+    "id": "T107",
+    "sourceIndex": 107,
+    "title": "AI Weekly Newsletter Generator",
+    "originalTitle": "AI Weekly Newsletter Generator",
+    "slug": "ai-weekly-newsletter-generator",
+    "sourceUrl": "https://quillbot.com/ai-writing-tools/ai-weekly-newsletter-generator",
+    "source": "uploaded markdown",
+    "category": "Email",
+    "audiences": [
+      "Professional",
+      "Creators",
+      "Personal"
+    ],
+    "engine": "generate",
+    "archetype": "generator",
+    "description": "Create a structured weekly newsletter from your brief.",
+    "fields": [
+      "Purpose and recipient context",
+      "Details to include",
+      "Desired response"
+    ],
+    "example": "Follow up on a product demo and propose a 20-minute call next Tuesday.",
+    "phase": "P1",
+    "dependency": "Text model + versioned prompt",
+    "features": [
+      "Task-specific brief",
+      "Audience and constraints",
+      "Tone and language",
+      "Editable result",
+      "Copy and TXT export"
+    ],
+    "screenshot": "screenshots/tools/ai-weekly-newsletter-generator.jpg",
+    "status": "design-preview"
+  },
+  {
+    "id": "T108",
+    "sourceIndex": 108,
+    "title": "AI Performance Improvement Plan Generator",
+    "originalTitle": "AI Performance Improvement Plan Generator",
+    "slug": "ai-performance-improvement-plan-generator",
+    "sourceUrl": "https://quillbot.com/ai-writing-tools/ai-performance-improvement-plan-generator",
+    "source": "uploaded markdown",
+    "category": "People & careers",
+    "audiences": [
+      "Professional",
+      "Academic",
+      "Personal"
+    ],
+    "engine": "generate",
+    "archetype": "generator",
+    "description": "Create a structured performance improvement plan from your brief.",
+    "fields": [
+      "Documented performance gaps",
+      "Expected improvement and support",
+      "Review dates and approved process"
+    ],
+    "example": "A content strategist role at a small remote software company.",
+    "phase": "P2",
+    "dependency": "Text model + versioned prompt",
+    "features": [
+      "Task-specific brief",
+      "Audience and constraints",
+      "Tone and language",
+      "Editable result",
+      "Copy and TXT export"
+    ],
+    "screenshot": "screenshots/tools/ai-performance-improvement-plan-generator.jpg",
+    "status": "design-preview"
+  },
+  {
+    "id": "T109",
+    "sourceIndex": 109,
+    "title": "AI Creative Brief Generator",
+    "originalTitle": "AI Creative Brief Generator",
+    "slug": "ai-creative-brief-generator",
+    "sourceUrl": "https://quillbot.com/ai-writing-tools/ai-creative-brief-generator",
+    "source": "uploaded markdown",
+    "category": "Marketing",
+    "audiences": [
+      "Professional",
+      "Creators"
+    ],
+    "engine": "generate",
+    "archetype": "generator",
+    "description": "Create a structured creative brief from your brief.",
+    "fields": [
+      "Product or business",
+      "Target audience",
+      "Benefits and proof points"
+    ],
+    "example": "A writing workspace that helps small teams review drafts together.",
+    "phase": "P2",
+    "dependency": "Text model + versioned prompt",
+    "features": [
+      "Task-specific brief",
+      "Audience and constraints",
+      "Tone and language",
+      "Editable result",
+      "Copy and TXT export"
+    ],
+    "screenshot": "screenshots/tools/ai-creative-brief-generator.jpg",
+    "status": "design-preview"
+  },
+  {
+    "id": "T110",
+    "sourceIndex": 110,
+    "title": "AI Project Brief Generator",
+    "originalTitle": "AI Project Brief Generator",
+    "slug": "ai-project-brief-generator",
+    "sourceUrl": "https://quillbot.com/ai-writing-tools/ai-project-brief-generator",
+    "source": "uploaded markdown",
+    "category": "Product & operations",
+    "audiences": [
+      "Professional",
+      "Creators"
+    ],
+    "engine": "generate",
+    "archetype": "generator",
+    "description": "Create a structured project brief from your brief.",
+    "fields": [
+      "Project or business context",
+      "Goals and requirements",
+      "Scope, owners and constraints"
+    ],
+    "example": "Launch a collaborative writing workspace with comments and version history.",
+    "phase": "P2",
+    "dependency": "Text model + versioned prompt",
+    "features": [
+      "Task-specific brief",
+      "Audience and constraints",
+      "Tone and language",
+      "Editable result",
+      "Copy and TXT export"
+    ],
+    "screenshot": "screenshots/tools/ai-project-brief-generator.jpg",
+    "status": "design-preview"
+  },
+  {
+    "id": "T111",
+    "sourceIndex": 111,
+    "title": "AI Short Story Generator",
+    "originalTitle": "AI Short Story Generator",
+    "slug": "ai-short-story-generator",
+    "sourceUrl": "https://quillbot.com/ai-writing-tools/ai-short-story-generator",
+    "source": "uploaded markdown",
+    "category": "Creative",
+    "audiences": [
+      "Creators",
+      "Personal"
+    ],
+    "engine": "generate",
+    "archetype": "generator",
+    "description": "Create a structured short story from your brief.",
+    "fields": [
+      "Premise or creative brief",
+      "Genre and audience",
+      "Characters, mood or constraints"
+    ],
+    "example": "A quiet bookshop where handwritten notes reveal a forgotten friendship.",
+    "phase": "P2",
+    "dependency": "Text model + versioned prompt",
+    "features": [
+      "Task-specific brief",
+      "Audience and constraints",
+      "Tone and language",
+      "Editable result",
+      "Copy and TXT export"
+    ],
+    "screenshot": "screenshots/tools/ai-short-story-generator.jpg",
+    "status": "design-preview"
+  },
+  {
+    "id": "T112",
+    "sourceIndex": 112,
+    "title": "AI Horror Story Generator",
+    "originalTitle": "AI Horror Story Generator",
+    "slug": "ai-horror-story-generator",
+    "sourceUrl": "https://quillbot.com/ai-writing-tools/ai-horror-story-generator",
+    "source": "uploaded markdown",
+    "category": "Creative",
+    "audiences": [
+      "Creators",
+      "Personal"
+    ],
+    "engine": "generate",
+    "archetype": "generator",
+    "description": "Create a structured horror story from your brief.",
+    "fields": [
+      "Premise or creative brief",
+      "Genre and audience",
+      "Characters, mood or constraints"
+    ],
+    "example": "A quiet bookshop where handwritten notes reveal a forgotten friendship.",
+    "phase": "P2",
+    "dependency": "Text model + versioned prompt",
+    "features": [
+      "Task-specific brief",
+      "Audience and constraints",
+      "Tone and language",
+      "Editable result",
+      "Copy and TXT export"
+    ],
+    "screenshot": "screenshots/tools/ai-horror-story-generator.jpg",
+    "status": "design-preview"
+  },
+  {
+    "id": "T113",
+    "sourceIndex": 113,
+    "title": "AI Landing Page Copy Generator",
+    "originalTitle": "AI Landing page copy generator",
+    "slug": "ai-landing-page-copy-generator",
+    "sourceUrl": "https://quillbot.com/ai-writing-tools/ai-landing-page-copy-generator",
+    "source": "uploaded markdown",
+    "category": "Marketing",
+    "audiences": [
+      "Professional",
+      "Creators"
+    ],
+    "engine": "generate",
+    "archetype": "generator",
+    "description": "Create a structured landing page copy from your brief.",
+    "fields": [
+      "Product or business",
+      "Target audience",
+      "Benefits and proof points"
+    ],
+    "example": "A writing workspace that helps small teams review drafts together.",
+    "phase": "P1",
+    "dependency": "Text model + versioned prompt",
+    "features": [
+      "Task-specific brief",
+      "Audience and constraints",
+      "Tone and language",
+      "Editable result",
+      "Copy and TXT export"
+    ],
+    "screenshot": "screenshots/tools/ai-landing-page-copy-generator.jpg",
+    "status": "design-preview"
+  },
+  {
+    "id": "T114",
+    "sourceIndex": 114,
+    "title": "AI Product Launch Generator",
+    "originalTitle": "AI Product Launch Generator",
+    "slug": "ai-product-launch-generator",
+    "sourceUrl": "https://quillbot.com/ai-writing-tools/ai-product-launch-generator",
+    "source": "uploaded markdown",
+    "category": "Marketing",
+    "audiences": [
+      "Professional",
+      "Creators"
+    ],
+    "engine": "generate",
+    "archetype": "generator",
+    "description": "Create a structured product launch from your brief.",
+    "fields": [
+      "Product or business",
+      "Target audience",
+      "Benefits and proof points"
+    ],
+    "example": "A writing workspace that helps small teams review drafts together.",
+    "phase": "P2",
+    "dependency": "Text model + versioned prompt",
+    "features": [
+      "Task-specific brief",
+      "Audience and constraints",
+      "Tone and language",
+      "Editable result",
+      "Copy and TXT export"
+    ],
+    "screenshot": "screenshots/tools/ai-product-launch-generator.jpg",
+    "status": "design-preview"
+  },
+  {
+    "id": "T115",
+    "sourceIndex": 115,
+    "title": "AI Instruction Manual Generator",
+    "originalTitle": "AI Instruction Manual Generator",
+    "slug": "ai-instruction-manual-generator",
+    "sourceUrl": "https://quillbot.com/ai-writing-tools/ai-instruction-manual-generator",
+    "source": "uploaded markdown",
+    "category": "Product & operations",
+    "audiences": [
+      "Professional",
+      "Creators"
+    ],
+    "engine": "generate",
+    "archetype": "generator",
+    "description": "Create a structured instruction manual from your brief.",
+    "fields": [
+      "Project or business context",
+      "Goals and requirements",
+      "Scope, owners and constraints"
+    ],
+    "example": "Launch a collaborative writing workspace with comments and version history.",
+    "phase": "P2",
+    "dependency": "Text model + versioned prompt",
+    "features": [
+      "Task-specific brief",
+      "Audience and constraints",
+      "Tone and language",
+      "Editable result",
+      "Copy and TXT export"
+    ],
+    "screenshot": "screenshots/tools/ai-instruction-manual-generator.jpg",
+    "status": "design-preview"
+  },
+  {
+    "id": "T116",
+    "sourceIndex": 116,
+    "title": "AI Employee Handbook Generator",
+    "originalTitle": "AI Employee Handbook Generator",
+    "slug": "ai-employee-handbook-generator",
+    "sourceUrl": "https://quillbot.com/ai-writing-tools/ai-employee-handbook-generator",
+    "source": "uploaded markdown",
+    "category": "People & careers",
+    "audiences": [
+      "Professional",
+      "Academic",
+      "Personal"
+    ],
+    "engine": "generate",
+    "archetype": "generator",
+    "description": "Create a structured employee handbook from your brief.",
+    "fields": [
+      "Role and organization",
+      "Verified experience or requirements",
+      "Details and constraints"
+    ],
+    "example": "A content strategist role at a small remote software company.",
+    "phase": "P2",
+    "dependency": "Text model + versioned prompt",
+    "features": [
+      "Task-specific brief",
+      "Audience and constraints",
+      "Tone and language",
+      "Editable result",
+      "Copy and TXT export"
+    ],
+    "screenshot": "screenshots/tools/ai-employee-handbook-generator.jpg",
+    "status": "design-preview"
+  },
+  {
+    "id": "T117",
+    "sourceIndex": 117,
+    "title": "AI Romance Story Generator",
+    "originalTitle": "AI Romance Story Generator",
+    "slug": "ai-romance-story-generator",
+    "sourceUrl": "https://quillbot.com/ai-writing-tools/ai-romance-story-generator",
+    "source": "uploaded markdown",
+    "category": "Creative",
+    "audiences": [
+      "Creators",
+      "Personal"
+    ],
+    "engine": "generate",
+    "archetype": "generator",
+    "description": "Create a structured romance story from your brief.",
+    "fields": [
+      "Premise or creative brief",
+      "Genre and audience",
+      "Characters, mood or constraints"
+    ],
+    "example": "A quiet bookshop where handwritten notes reveal a forgotten friendship.",
+    "phase": "P2",
+    "dependency": "Text model + versioned prompt",
+    "features": [
+      "Task-specific brief",
+      "Audience and constraints",
+      "Tone and language",
+      "Editable result",
+      "Copy and TXT export"
+    ],
+    "screenshot": "screenshots/tools/ai-romance-story-generator.jpg",
+    "status": "design-preview"
+  },
+  {
+    "id": "T118",
+    "sourceIndex": 118,
+    "title": "AI Dialogue Generator",
+    "originalTitle": "AI Dialogue Generator",
+    "slug": "ai-dialogue-generator",
+    "sourceUrl": "https://quillbot.com/ai-writing-tools/ai-dialogue-generator",
+    "source": "uploaded markdown",
+    "category": "Creative",
+    "audiences": [
+      "Creators",
+      "Personal"
+    ],
+    "engine": "generate",
+    "archetype": "generator",
+    "description": "Create a structured dialogue from your brief.",
+    "fields": [
+      "Premise or creative brief",
+      "Genre and audience",
+      "Characters, mood or constraints"
+    ],
+    "example": "A quiet bookshop where handwritten notes reveal a forgotten friendship.",
+    "phase": "P2",
+    "dependency": "Text model + versioned prompt",
+    "features": [
+      "Task-specific brief",
+      "Audience and constraints",
+      "Tone and language",
+      "Editable result",
+      "Copy and TXT export"
+    ],
+    "screenshot": "screenshots/tools/ai-dialogue-generator.jpg",
+    "status": "design-preview"
+  },
+  {
+    "id": "T119",
+    "sourceIndex": 119,
+    "title": "AI Online Event Planning Generator",
+    "originalTitle": "AI Online Event Planning Generator",
+    "slug": "ai-event-planning-generator",
+    "sourceUrl": "https://quillbot.com/ai-writing-tools/ai-event-planning-generator",
+    "source": "uploaded markdown",
+    "category": "Product & operations",
+    "audiences": [
+      "Professional",
+      "Creators"
+    ],
+    "engine": "generate",
+    "archetype": "generator",
+    "description": "Create a structured online event planning from your brief.",
+    "fields": [
+      "Project or business context",
+      "Goals and requirements",
+      "Scope, owners and constraints"
+    ],
+    "example": "Launch a collaborative writing workspace with comments and version history.",
+    "phase": "P2",
+    "dependency": "Text model + versioned prompt",
+    "features": [
+      "Task-specific brief",
+      "Audience and constraints",
+      "Tone and language",
+      "Editable result",
+      "Copy and TXT export"
+    ],
+    "screenshot": "screenshots/tools/ai-event-planning-generator.jpg",
+    "status": "design-preview"
+  },
+  {
+    "id": "T120",
+    "sourceIndex": 120,
+    "title": "AI SEO Meta Tags Generator",
+    "originalTitle": "AI SEO Meta Tags Generator",
+    "slug": "ai-seo-meta-tag-generator",
+    "sourceUrl": "https://quillbot.com/ai-writing-tools/ai-seo-meta-tag-generator",
+    "source": "uploaded markdown",
+    "category": "SEO",
+    "audiences": [
+      "Creators",
+      "Professional"
+    ],
+    "engine": "generate",
+    "archetype": "generator",
+    "description": "Create a structured seo meta tags from your brief.",
+    "fields": [
+      "Page topic and primary keyword",
+      "Page summary",
+      "Brand and page URL"
+    ],
+    "example": "A practical guide to building a consistent writing habit for busy founders.",
+    "phase": "P1",
+    "dependency": "Text model + versioned prompt",
+    "features": [
+      "Task-specific brief",
+      "Audience and constraints",
+      "Tone and language",
+      "Editable result",
+      "Copy and TXT export"
+    ],
+    "screenshot": "screenshots/tools/ai-seo-meta-tag-generator.jpg",
+    "status": "design-preview"
+  },
+  {
+    "id": "T121",
+    "sourceIndex": 121,
+    "title": "AI Story Topic Generator",
+    "originalTitle": "AI Story Topic Generator",
+    "slug": "ai-story-topic-generator",
+    "sourceUrl": "https://quillbot.com/ai-writing-tools/ai-story-topic-generator",
+    "source": "uploaded markdown",
+    "category": "Creative",
+    "audiences": [
+      "Creators",
+      "Personal"
+    ],
+    "engine": "generate",
+    "archetype": "generator",
+    "description": "Create a structured story topic from your brief.",
+    "fields": [
+      "Premise or creative brief",
+      "Genre and audience",
+      "Characters, mood or constraints"
+    ],
+    "example": "A quiet bookshop where handwritten notes reveal a forgotten friendship.",
+    "phase": "P2",
+    "dependency": "Text model + versioned prompt",
+    "features": [
+      "Task-specific brief",
+      "Audience and constraints",
+      "Tone and language",
+      "Editable result",
+      "Copy and TXT export"
+    ],
+    "screenshot": "screenshots/tools/ai-story-topic-generator.jpg",
+    "status": "design-preview"
+  },
+  {
+    "id": "T122",
+    "sourceIndex": 122,
+    "title": "AI Conclusion Writer",
+    "originalTitle": "AI Conclusion Writer",
+    "slug": "ai-conclusion-writer",
+    "sourceUrl": "https://quillbot.com/ai-writing-tools/ai-conclusion-writer",
+    "source": "uploaded markdown",
+    "category": "Writing",
+    "audiences": [
+      "Creators",
+      "Professional",
+      "Academic",
+      "Personal"
+    ],
+    "engine": "generate",
+    "archetype": "generator",
+    "description": "Create a structured conclusion from your brief.",
+    "fields": [
+      "Topic or brief",
+      "Audience",
+      "Key points to include"
+    ],
+    "example": "Explain how a four-day workweek can improve focus without increasing meeting time.",
+    "phase": "P2",
+    "dependency": "Text model + versioned prompt",
+    "features": [
+      "Task-specific brief",
+      "Audience and constraints",
+      "Tone and language",
+      "Editable result",
+      "Copy and TXT export"
+    ],
+    "screenshot": "screenshots/tools/ai-conclusion-writer.jpg",
+    "status": "design-preview"
+  },
+  {
+    "id": "T123",
+    "sourceIndex": 123,
+    "title": "AI Idea Generator",
+    "originalTitle": "AI Idea Generator",
+    "slug": "ai-idea-generator",
+    "sourceUrl": "https://quillbot.com/ai-writing-tools/ai-idea-generator",
+    "source": "uploaded markdown",
+    "category": "Creative",
+    "audiences": [
+      "Creators",
+      "Personal"
+    ],
+    "engine": "generate",
+    "archetype": "generator",
+    "description": "Create a structured idea from your brief.",
+    "fields": [
+      "Premise or creative brief",
+      "Genre and audience",
+      "Characters, mood or constraints"
+    ],
+    "example": "A quiet bookshop where handwritten notes reveal a forgotten friendship.",
+    "phase": "P2",
+    "dependency": "Text model + versioned prompt",
+    "features": [
+      "Task-specific brief",
+      "Audience and constraints",
+      "Tone and language",
+      "Editable result",
+      "Copy and TXT export"
+    ],
+    "screenshot": "screenshots/tools/ai-idea-generator.jpg",
+    "status": "design-preview"
+  },
+  {
+    "id": "T124",
+    "sourceIndex": 124,
+    "title": "Recommended Reading Generator",
+    "originalTitle": "AI Recommended Reading Generator - Link",
+    "slug": "ai-recommended-reading-generator",
+    "sourceUrl": "https://quillbot.com/ai-writing-tools/ai-recommended-reading-generator",
+    "source": "uploaded markdown",
+    "category": "Academic",
+    "audiences": [
+      "Academic"
+    ],
+    "engine": "generate",
+    "archetype": "generator",
+    "description": "Create a structured recommended reading from your brief.",
+    "fields": [
+      "Reading goal and level",
+      "Books or subjects you like",
+      "Language and availability constraints"
+    ],
+    "example": "Explain renewable energy sources to a year-nine science class.",
+    "phase": "P2",
+    "dependency": "Text model + versioned prompt",
+    "features": [
+      "Task-specific brief",
+      "Audience and constraints",
+      "Tone and language",
+      "Editable result",
+      "Copy and TXT export"
+    ],
+    "screenshot": "screenshots/tools/ai-recommended-reading-generator.jpg",
+    "status": "design-preview"
+  },
+  {
+    "id": "T125",
+    "sourceIndex": 125,
+    "title": "AI Marketing Email Generator",
+    "originalTitle": "AI Marketing Email Generator",
+    "slug": "ai-marketing-email-generator",
+    "sourceUrl": "https://quillbot.com/ai-writing-tools/ai-marketing-email-generator",
+    "source": "uploaded markdown",
+    "category": "Email",
+    "audiences": [
+      "Professional",
+      "Creators",
+      "Personal"
+    ],
+    "engine": "generate",
+    "archetype": "generator",
+    "description": "Create a structured marketing email from your brief.",
+    "fields": [
+      "Purpose and recipient context",
+      "Details to include",
+      "Desired response"
+    ],
+    "example": "Follow up on a product demo and propose a 20-minute call next Tuesday.",
+    "phase": "P1",
+    "dependency": "Text model + versioned prompt",
+    "features": [
+      "Task-specific brief",
+      "Audience and constraints",
+      "Tone and language",
+      "Editable result",
+      "Copy and TXT export"
+    ],
+    "screenshot": "screenshots/tools/ai-marketing-email-generator.jpg",
+    "status": "design-preview"
+  },
+  {
+    "id": "T126",
+    "sourceIndex": 126,
+    "title": "AI Story Prompt Generator",
+    "originalTitle": "AI Story Prompt Generator",
+    "slug": "ai-story-prompt-generator",
+    "sourceUrl": "https://quillbot.com/ai-writing-tools/ai-story-prompt-generator",
+    "source": "uploaded markdown",
+    "category": "Creative",
+    "audiences": [
+      "Creators",
+      "Personal"
+    ],
+    "engine": "generate",
+    "archetype": "generator",
+    "description": "Create a structured story prompt from your brief.",
+    "fields": [
+      "Premise or creative brief",
+      "Genre and audience",
+      "Characters, mood or constraints"
+    ],
+    "example": "A quiet bookshop where handwritten notes reveal a forgotten friendship.",
+    "phase": "P2",
+    "dependency": "Text model + versioned prompt",
+    "features": [
+      "Task-specific brief",
+      "Audience and constraints",
+      "Tone and language",
+      "Editable result",
+      "Copy and TXT export"
+    ],
+    "screenshot": "screenshots/tools/ai-story-prompt-generator.jpg",
+    "status": "design-preview"
+  },
+  {
+    "id": "T127",
+    "sourceIndex": 127,
+    "title": "AI Outreach Email Generator",
+    "originalTitle": "AI Outreach Email Generator",
+    "slug": "ai-outreach-email-generator",
+    "sourceUrl": "https://quillbot.com/ai-writing-tools/ai-outreach-email-generator",
+    "source": "uploaded markdown",
+    "category": "Email",
+    "audiences": [
+      "Professional",
+      "Creators",
+      "Personal"
+    ],
+    "engine": "generate",
+    "archetype": "generator",
+    "description": "Create a structured outreach email from your brief.",
+    "fields": [
+      "Purpose and recipient context",
+      "Details to include",
+      "Desired response"
+    ],
+    "example": "Follow up on a product demo and propose a 20-minute call next Tuesday.",
+    "phase": "P1",
+    "dependency": "Text model + versioned prompt",
+    "features": [
+      "Task-specific brief",
+      "Audience and constraints",
+      "Tone and language",
+      "Editable result",
+      "Copy and TXT export"
+    ],
+    "screenshot": "screenshots/tools/ai-outreach-email-generator.jpg",
+    "status": "design-preview"
+  },
+  {
+    "id": "T128",
+    "sourceIndex": 128,
+    "title": "AI Sales Email Generator",
+    "originalTitle": "AI Sales Email Generator",
+    "slug": "ai-sales-email-generator",
+    "sourceUrl": "https://quillbot.com/ai-writing-tools/ai-sales-email-generator",
+    "source": "uploaded markdown",
+    "category": "Email",
+    "audiences": [
+      "Professional",
+      "Creators",
+      "Personal"
+    ],
+    "engine": "generate",
+    "archetype": "generator",
+    "description": "Create a structured sales email from your brief.",
+    "fields": [
+      "Purpose and recipient context",
+      "Details to include",
+      "Desired response"
+    ],
+    "example": "Follow up on a product demo and propose a 20-minute call next Tuesday.",
+    "phase": "P1",
+    "dependency": "Text model + versioned prompt",
+    "features": [
+      "Task-specific brief",
+      "Audience and constraints",
+      "Tone and language",
+      "Editable result",
+      "Copy and TXT export"
+    ],
+    "screenshot": "screenshots/tools/ai-sales-email-generator.jpg",
+    "status": "design-preview"
+  },
+  {
+    "id": "T129",
+    "sourceIndex": 129,
+    "title": "AI Novel Title Generator",
+    "originalTitle": "AI Novel Title Generator",
+    "slug": "ai-novel-title-generator",
+    "sourceUrl": "https://quillbot.com/ai-writing-tools/ai-novel-title-generator",
+    "source": "uploaded markdown",
+    "category": "Creative",
+    "audiences": [
+      "Creators",
+      "Personal"
+    ],
+    "engine": "generate",
+    "archetype": "generator",
+    "description": "Create a structured novel title from your brief.",
+    "fields": [
+      "Premise or creative brief",
+      "Genre and audience",
+      "Characters, mood or constraints"
+    ],
+    "example": "A quiet bookshop where handwritten notes reveal a forgotten friendship.",
+    "phase": "P2",
+    "dependency": "Text model + versioned prompt",
+    "features": [
+      "Task-specific brief",
+      "Audience and constraints",
+      "Tone and language",
+      "Editable result",
+      "Copy and TXT export"
+    ],
+    "screenshot": "screenshots/tools/ai-novel-title-generator.jpg",
+    "status": "design-preview"
+  },
+  {
+    "id": "T130",
+    "sourceIndex": 130,
+    "title": "AI Release Notes Generator",
+    "originalTitle": "AI Release Notes Generator",
+    "slug": "ai-release-notes-generator",
+    "sourceUrl": "https://quillbot.com/ai-writing-tools/ai-release-notes-generator",
+    "source": "uploaded markdown",
+    "category": "Product & operations",
+    "audiences": [
+      "Professional",
+      "Creators"
+    ],
+    "engine": "generate",
+    "archetype": "generator",
+    "description": "Create a structured release notes from your brief.",
+    "fields": [
+      "Project or business context",
+      "Goals and requirements",
+      "Scope, owners and constraints"
+    ],
+    "example": "Launch a collaborative writing workspace with comments and version history.",
+    "phase": "P2",
+    "dependency": "Text model + versioned prompt",
+    "features": [
+      "Task-specific brief",
+      "Audience and constraints",
+      "Tone and language",
+      "Editable result",
+      "Copy and TXT export"
+    ],
+    "screenshot": "screenshots/tools/ai-release-notes-generator.jpg",
+    "status": "design-preview"
+  },
+  {
+    "id": "T131",
+    "sourceIndex": 131,
+    "title": "AI Sales Playbook Generator",
+    "originalTitle": "AI Sales Playbook Generator",
+    "slug": "ai-sales-playbook-generator",
+    "sourceUrl": "https://quillbot.com/ai-writing-tools/ai-sales-playbook-generator",
+    "source": "uploaded markdown",
+    "category": "Sales",
+    "audiences": [
+      "Professional"
+    ],
+    "engine": "generate",
+    "archetype": "generator",
+    "description": "Create a structured sales playbook from your brief.",
+    "fields": [
+      "Product and prospect",
+      "Pain point and evidence",
+      "Desired next step"
+    ],
+    "example": "A shared writing workspace for a small content agency with slow review cycles.",
+    "phase": "P2",
+    "dependency": "Text model + versioned prompt",
+    "features": [
+      "Task-specific brief",
+      "Audience and constraints",
+      "Tone and language",
+      "Editable result",
+      "Copy and TXT export"
+    ],
+    "screenshot": "screenshots/tools/ai-sales-playbook-generator.jpg",
+    "status": "design-preview"
+  },
+  {
+    "id": "T132",
+    "sourceIndex": 132,
+    "title": "AI Event Invitation Generator",
+    "originalTitle": "AI Event Invitation Generator",
+    "slug": "ai-event-invitation-generator",
+    "sourceUrl": "https://quillbot.com/ai-writing-tools/ai-event-invitation-generator",
+    "source": "uploaded markdown",
+    "category": "Personal",
+    "audiences": [
+      "Personal"
+    ],
+    "engine": "generate",
+    "archetype": "generator",
+    "description": "Create a structured event invitation from your brief.",
+    "fields": [
+      "Goal or occasion",
+      "Preferences and context",
+      "Constraints"
+    ],
+    "example": "Plan a thoughtful weekend celebration with a small group of friends.",
+    "phase": "P2",
+    "dependency": "Text model + versioned prompt",
+    "features": [
+      "Task-specific brief",
+      "Audience and constraints",
+      "Tone and language",
+      "Editable result",
+      "Copy and TXT export"
+    ],
+    "screenshot": "screenshots/tools/ai-event-invitation-generator.jpg",
+    "status": "design-preview"
+  },
+  {
+    "id": "T133",
+    "sourceIndex": 133,
+    "title": "AI Troubleshooting Guide Generator",
+    "originalTitle": "AI Troubleshooting guide generator",
+    "slug": "ai-troubleshooting-guide-generator",
+    "sourceUrl": "https://quillbot.com/ai-writing-tools/ai-troubleshooting-guide-generator",
+    "source": "uploaded markdown",
+    "category": "Product & operations",
+    "audiences": [
+      "Professional",
+      "Creators"
+    ],
+    "engine": "generate",
+    "archetype": "generator",
+    "description": "Create a structured troubleshooting guide from your brief.",
+    "fields": [
+      "Project or business context",
+      "Goals and requirements",
+      "Scope, owners and constraints"
+    ],
+    "example": "Launch a collaborative writing workspace with comments and version history.",
+    "phase": "P2",
+    "dependency": "Text model + versioned prompt",
+    "features": [
+      "Task-specific brief",
+      "Audience and constraints",
+      "Tone and language",
+      "Editable result",
+      "Copy and TXT export"
+    ],
+    "screenshot": "screenshots/tools/ai-troubleshooting-guide-generator.jpg",
+    "status": "design-preview"
+  },
+  {
+    "id": "T134",
+    "sourceIndex": 134,
+    "title": "AI Short Bio Generator",
+    "originalTitle": "AI Short Bio Generator",
+    "slug": "ai-short-bio-generator",
+    "sourceUrl": "https://quillbot.com/ai-writing-tools/ai-short-bio-generator",
+    "source": "uploaded markdown",
+    "category": "Social media",
+    "audiences": [
+      "Creators",
+      "Professional",
+      "Personal"
+    ],
+    "engine": "generate",
+    "archetype": "generator",
+    "description": "Create a structured short bio from your brief.",
+    "fields": [
+      "Topic or message",
+      "Platform and audience",
+      "Brand voice and call to action"
+    ],
+    "example": "Introduce our new shared editing workspace to independent creators.",
+    "phase": "P2",
+    "dependency": "Text model + versioned prompt",
+    "features": [
+      "Task-specific brief",
+      "Audience and constraints",
+      "Tone and language",
+      "Editable result",
+      "Copy and TXT export"
+    ],
+    "screenshot": "screenshots/tools/ai-short-bio-generator.jpg",
+    "status": "design-preview"
+  },
+  {
+    "id": "T135",
+    "sourceIndex": 135,
+    "title": "AI Job Summary Generator",
+    "originalTitle": "AI Job Summary Generator",
+    "slug": "ai-job-summary-generator",
+    "sourceUrl": "https://quillbot.com/ai-writing-tools/ai-job-summary-generator",
+    "source": "uploaded markdown",
+    "category": "People & careers",
+    "audiences": [
+      "Professional",
+      "Academic",
+      "Personal"
+    ],
+    "engine": "generate",
+    "archetype": "generator",
+    "description": "Create a structured job summary from your brief.",
+    "fields": [
+      "Role and organization",
+      "Verified experience or requirements",
+      "Details and constraints"
+    ],
+    "example": "A content strategist role at a small remote software company.",
+    "phase": "P2",
+    "dependency": "Text model + versioned prompt",
+    "features": [
+      "Task-specific brief",
+      "Audience and constraints",
+      "Tone and language",
+      "Editable result",
+      "Copy and TXT export"
+    ],
+    "screenshot": "screenshots/tools/ai-job-summary-generator.jpg",
+    "status": "design-preview"
+  },
+  {
+    "id": "T136",
+    "sourceIndex": 136,
+    "title": "AI Book Idea Generator",
+    "originalTitle": "AI Book Idea Generator",
+    "slug": "ai-book-idea-generator",
+    "sourceUrl": "https://quillbot.com/ai-writing-tools/ai-book-idea-generator",
+    "source": "uploaded markdown",
+    "category": "Creative",
+    "audiences": [
+      "Creators",
+      "Personal"
+    ],
+    "engine": "generate",
+    "archetype": "generator",
+    "description": "Create a structured book idea from your brief.",
+    "fields": [
+      "Premise or creative brief",
+      "Genre and audience",
+      "Characters, mood or constraints"
+    ],
+    "example": "A quiet bookshop where handwritten notes reveal a forgotten friendship.",
+    "phase": "P2",
+    "dependency": "Text model + versioned prompt",
+    "features": [
+      "Task-specific brief",
+      "Audience and constraints",
+      "Tone and language",
+      "Editable result",
+      "Copy and TXT export"
+    ],
+    "screenshot": "screenshots/tools/ai-book-idea-generator.jpg",
+    "status": "design-preview"
+  },
+  {
+    "id": "T137",
+    "sourceIndex": 137,
+    "title": "AI Listicle Generator",
+    "originalTitle": "AI Listicle Generator",
+    "slug": "ai-listicle-generator",
+    "sourceUrl": "https://quillbot.com/ai-writing-tools/ai-listicle-generator",
+    "source": "uploaded markdown",
+    "category": "SEO",
+    "audiences": [
+      "Creators",
+      "Professional"
+    ],
+    "engine": "generate",
+    "archetype": "generator",
+    "description": "Create a structured listicle from your brief.",
+    "fields": [
+      "Topic and primary keyword",
+      "Search intent and audience",
+      "Verified facts and internal links"
+    ],
+    "example": "A practical guide to building a consistent writing habit for busy founders.",
+    "phase": "P2",
+    "dependency": "Text model + versioned prompt",
+    "features": [
+      "Task-specific brief",
+      "Audience and constraints",
+      "Tone and language",
+      "Editable result",
+      "Copy and TXT export"
+    ],
+    "screenshot": "screenshots/tools/ai-listicle-generator.jpg",
+    "status": "design-preview"
+  },
+  {
+    "id": "T138",
+    "sourceIndex": 138,
+    "title": "AI Scope of Work Generator",
+    "originalTitle": "AI Scope of Work Generator",
+    "slug": "ai-sow-generator",
+    "sourceUrl": "https://quillbot.com/ai-writing-tools/ai-sow-generator",
+    "source": "uploaded markdown",
+    "category": "Product & operations",
+    "audiences": [
+      "Professional",
+      "Creators"
+    ],
+    "engine": "generate",
+    "archetype": "generator",
+    "description": "Create a structured scope of work from your brief.",
+    "fields": [
+      "Project objective",
+      "Deliverables and exclusions",
+      "Milestones, assumptions and acceptance criteria"
+    ],
+    "example": "Launch a collaborative writing workspace with comments and version history.",
+    "phase": "P2",
+    "dependency": "Text model + versioned prompt",
+    "features": [
+      "Task-specific brief",
+      "Audience and constraints",
+      "Tone and language",
+      "Editable result",
+      "Copy and TXT export"
+    ],
+    "screenshot": "screenshots/tools/ai-sow-generator.jpg",
+    "status": "design-preview"
+  },
+  {
+    "id": "T139",
+    "sourceIndex": 139,
+    "title": "LinkedIn Bio Generator",
+    "originalTitle": "AI LinkedIn Bio Generator",
+    "slug": "linkedin-bio-generator",
+    "sourceUrl": "https://quillbot.com/ai-writing-tools/ai-linkedin-summary-generator",
+    "source": "uploaded markdown",
+    "category": "Social media",
+    "audiences": [
+      "Creators",
+      "Professional",
+      "Personal"
+    ],
+    "engine": "generate",
+    "archetype": "generator",
+    "description": "Create a structured linkedin bio from your brief.",
+    "fields": [
+      "Topic or message",
+      "Platform and audience",
+      "Brand voice and call to action"
+    ],
+    "example": "Introduce our new shared editing workspace to independent creators.",
+    "phase": "P2",
+    "dependency": "Text model + versioned prompt",
+    "features": [
+      "Task-specific brief",
+      "Audience and constraints",
+      "Tone and language",
+      "Editable result",
+      "Copy and TXT export"
+    ],
+    "screenshot": "screenshots/tools/linkedin-bio-generator.jpg",
+    "status": "design-preview"
+  },
+  {
+    "id": "T140",
+    "sourceIndex": 140,
+    "title": "QR Code Generator",
+    "originalTitle": "QR Code Generator",
+    "slug": "qr-code-generator",
+    "sourceUrl": "https://quillbot.com/qr-code-generator",
+    "source": "uploaded markdown",
+    "category": "Utilities",
+    "audiences": [
+      "Creators",
+      "Professional",
+      "Academic",
+      "Personal"
+    ],
+    "engine": "qr",
+    "archetype": "utility",
+    "description": "Create a scannable code from a URL or text.",
+    "fields": [
+      "Your brief",
+      "Audience",
+      "Details and constraints"
+    ],
+    "example": "A clear, specific brief with all the facts you want to preserve.",
+    "phase": "P2",
+    "dependency": "Standards-based QR library, local",
+    "features": [
+      "Local input",
+      "Preview",
+      "Copy or download",
+      "Validation"
+    ],
+    "screenshot": "screenshots/tools/qr-code-generator.jpg",
+    "status": "design-preview"
+  },
+  {
+    "id": "T141",
+    "sourceIndex": 141,
+    "title": "Background Remover",
+    "originalTitle": "Background Remover",
+    "slug": "background-remover",
+    "sourceUrl": "https://quillbot.com/background-remover",
+    "source": "menu screenshot",
+    "category": "Images",
+    "audiences": [
+      "Creators",
+      "Professional",
+      "Academic",
+      "Personal"
+    ],
+    "engine": "background",
+    "archetype": "upload",
+    "description": "Separate a subject from its image background.",
+    "fields": [
+      "Your brief",
+      "Audience",
+      "Details and constraints"
+    ],
+    "example": "A clear, specific brief with all the facts you want to preserve.",
+    "phase": "P3",
+    "dependency": "Segmentation provider + image jobs",
+    "features": [
+      "File input",
+      "Validation",
+      "Before and after",
+      "Job status",
+      "Download"
+    ],
+    "screenshot": "screenshots/tools/background-remover.jpg",
+    "status": "design-preview"
+  }
+]

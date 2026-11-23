@@ -1,0 +1,22 @@
+name: Check writing update
+on:
+  pull_request:
+    branches: [main]
+permissions:
+  contents: read
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "24"
+      - uses: pnpm/action-setup@v4
+      - run: pnpm install --frozen-lockfile
+      - run: node --test backend/worker.test.mjs components/product/plain-edit.test.mjs
+      - run: pnpm exec next build
+        env:
+          STATIC_PAGES: "1"
+          SITE_BASE_PATH: ""
+      - run: pnpm exec wrangler deploy --dry-run --config backend/wrangler.jsonc

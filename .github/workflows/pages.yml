@@ -1,4 +1,4 @@
-name: Publish Humanize.top blueprint
+name: Publish Humanize.top
 
 on:
   push:
@@ -44,6 +44,7 @@ jobs:
         env:
           STATIC_PAGES: "1"
           SITE_BASE_PATH: ${{ steps.pages.outputs.base_path }}
+          NEXT_PUBLIC_WRITING_API: ${{ vars.NEXT_PUBLIC_WRITING_API }}
 
       - name: Upload website
         uses: actions/upload-pages-artifact@v4

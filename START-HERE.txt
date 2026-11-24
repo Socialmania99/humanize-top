@@ -1,0 +1,75 @@
+HUMANIZE.TOP — COMPLETE UPDATED PROJECT
+
+CONTENTS
+source/  Complete project source, including the Cloudflare Worker and GitHub workflows.
+website/ Built static website: upload its CONTENTS to a static host's web root.
+
+This package is based on merged PR #1. GitHub Pages and humanize.top remain your existing hosting setup. All 141 tool pages are included. The frontend can be hosted immediately without installing Node.js on the web host.
+
+WHAT WORKS NOW
+Tool browsing, navigation, local phrase simplification, copying and text downloads. AI generation requires a configured Cloudflare Worker or a supported on-device browser model. File/image processing, detection and accounts are not implemented services.
+
+IMPORTANT: The included website was built WITHOUT NEXT_PUBLIC_WRITING_API because no deployed Worker URL has been supplied. It must be rebuilt with that URL to enable hosted AI. No real Cloudflare AI rewrite has been verified. The local phrase simplifier is not AI.
+
+OPTION A — KEEP YOUR EXISTING GITHUB PAGES SITE (RECOMMENDED)
+1. The writing update is already merged in Socialmania99/humanize-top.
+2. Deploy the Worker using the steps below.
+3. In GitHub: Settings > Secrets and variables > Actions > Variables, save the repository variable NEXT_PUBLIC_WRITING_API with your full public HTTPS URL ending in /generate.
+4. Check for a conflicting variable under the github-pages environment and update/remove it if necessary.
+5. Actions > Publish Humanize.top > Run workflow > main. Wait for success.
+6. Keep Settings > Pages > Source = GitHub Actions, Custom domain = humanize.top, and Enforce HTTPS enabled. No DNS/nameserver migration is needed.
+
+OPTION B — UPLOAD THE BUILT WEBSITE TO A STATIC HOST
+1. Extract this ZIP.
+2. Upload everything INSIDE website/ to your host's web root (often public_html). index.html must be directly at the web root.
+3. Include _next/, tools/, apps/, 404.html, .nojekyll, and all other files. Do not upload source/ into your public web root.
+4. Serve at the root of your domain, not a subfolder. Use HTTPS and a server that serves directory index.html files.
+5. This is a web deployment; double-clicking index.html as a local file does not provide a supported preview.
+6. The Cloudflare Worker permits https://humanize.top and https://www.humanize.top only. Other domains require an intentional change to backend/worker.mjs and Worker redeployment.
+7. The CNAME file is for GitHub Pages; it does not change DNS or set up a domain on other hosts.
+
+For your existing GitHub Pages workflow, use OPTION A. Uploading built files to the repository root will not replace what its source-build workflow publishes.
+
+DEPLOY THE CLOUDFLARE WORKER FROM YOUR ACCOUNT
+Install Node.js 24, then open a terminal inside source/ and run:
+
+npm install --global pnpm@11.25.0
+pnpm install --frozen-lockfile
+pnpm exec wrangler login
+pnpm exec wrangler whoami
+pnpm exec wrangler deploy --config backend/wrangler.jsonc
+
+Complete Cloudflare sign-in in your browser. Choose the correct account, complete any required Workers AI setup, and review its allowance/billing settings. Copy the workers.dev URL printed on successful deployment and append /generate. Do not share tokens or passwords.
+
+Full deployment and troubleshooting instructions are in source/backend/README.md.
+
+REBUILD THE STATIC WEBSITE AFTER YOU HAVE THE API URL
+In source/, replace the example endpoint with your actual address.
+
+macOS / Linux:
+STATIC_PAGES=1 SITE_BASE_PATH='' NEXT_PUBLIC_WRITING_API='https://YOUR-WORKER.workers.dev/generate' pnpm exec next build
+
+Windows PowerShell:
+$env:STATIC_PAGES = '1'
+$env:SITE_BASE_PATH = ''
+$env:NEXT_PUBLIC_WRITING_API = 'https://YOUR-WORKER.workers.dev/generate'
+pnpm exec next build
+
+Upload the generated out/ contents to your static host. If publishing manually from a GitHub Pages branch, include .nojekyll and a CNAME file containing humanize.top. Your existing GitHub Actions workflow handles its own publishing, so use OPTION A for that setup.
+
+VERIFY THE LIVE WEBSITE
+Open https://humanize.top/tools/ai-humanizer/.
+It should say 'Submitting sends your text to the hosted AI service.'
+Enter: Mira delivered 17 reports on Friday in order to help the team.
+Click Rewrite text. Confirm the response keeps Mira, 17 reports and Friday.
+Submit a second input with Ravi, 23 reports and Monday and confirm the output changes accordingly.
+Verify POST /generate returns 200 in the browser Network panel.
+Test Copy result and Download text.
+
+VALIDATION FOR THIS PACKAGE
+Static production build and TypeScript passed.
+All 141 tool routes exported.
+Nine Worker/local-edit tests passed. AI tests use mocked bindings.
+Worker dry run passed in the PR checks.
+Prior browser checks passed for phrase simplification, copy, download and missing-AI messaging.
+No production Worker inference is claimed.
